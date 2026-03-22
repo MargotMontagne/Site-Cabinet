@@ -15,12 +15,12 @@ export const metadata: Metadata = {
     "avocat tribunal pour enfants Dunkerque",
   ],
   alternates: {
-    canonical: "https://www.avocat-montagne.fr/domaines/droit-des-mineurs",
+    canonical: "https://www.avocat-montagne.fr/expertises/droit-des-mineurs",
   },
   openGraph: {
     title: "Avocat droit des mineurs Dunkerque | Protection enfance | Maître Montagne",
     description: "Avocate en droit des mineurs à Dunkerque. Assistance éducative, mineur mis en cause, protection de l'enfance. Maître Margot Montagne. ☎ 07 44 78 77 18.",
-    url: "https://www.avocat-montagne.fr/domaines/droit-des-mineurs",
+    url: "https://www.avocat-montagne.fr/expertises/droit-des-mineurs",
     type: "website",
     locale: "fr_FR",
   },
@@ -33,7 +33,7 @@ export default function DroitMineursPage() {
       whyChooseStyle="list"
       image="hero-mineurs.webp"
       imagePosition="center"
-      canonicalUrl="https://www.avocat-montagne.fr/domaines/droit-des-mineurs"
+      canonicalUrl="https://www.avocat-montagne.fr/expertises/droit-des-mineurs"
       breadcrumbLabel="Droit des mineurs"
       title="Avocat en droit des mineurs à Dunkerque"
       subtitle="Le cabinet accompagne les mineurs, les parents et les familles dans les procédures d'assistance éducative et les affaires pénales impliquant des jeunes, avec bienveillance et rigueur."
@@ -146,17 +146,17 @@ export default function DroitMineursPage() {
       relatedLinks={[
         {
           label: "Droit pénal",
-          href: "/domaines/droit-penal",
+          href: "/expertises/droit-penal",
           description: "Un mineur mis en cause dans une procédure pénale bénéficie des mêmes droits fondamentaux qu'un adulte. Le cabinet assure sa défense à chaque stade.",
         },
         {
           label: "Droit de la famille",
-          href: "/domaines/droit-de-la-famille",
+          href: "/expertises/droit-de-la-famille",
           description: "Les procédures impliquant des mineurs croisent souvent les questions d'autorité parentale et de garde. Une prise en charge globale est possible.",
         },
         {
           label: "Préjudice corporel",
-          href: "/domaines/prejudice-corporel",
+          href: "/expertises/prejudice-corporel",
           description: "Un mineur victime de violence ou d'un accident a droit à une indemnisation complète. Le cabinet défend ses intérêts face aux assureurs et aux juridictions.",
         },
       ]}

@@ -219,12 +219,12 @@ export default function ContactPage() {
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto">
             {[
-              { label: "Droit pénal", href: "/domaines/droit-penal", desc: "Garde à vue, tribunal, défense et victimes" },
-              { label: "Droit de la famille", href: "/domaines/droit-de-la-famille", desc: "Divorce, enfants, pension alimentaire" },
-              { label: "Droit routier", href: "/domaines/droit-routier", desc: "Permis, alcool au volant, infractions" },
-              { label: "Préjudice corporel", href: "/domaines/prejudice-corporel", desc: "Accidents, indemnisation, assureurs" },
-              { label: "Droit civil", href: "/domaines/droit-civil", desc: "Contrats, litiges, responsabilité" },
-              { label: "Droit des mineurs", href: "/domaines/droit-des-mineurs", desc: "Mineur mis en cause, protection de l'enfance" },
+              { label: "Droit pénal", href: "/expertises/droit-penal", desc: "Garde à vue, tribunal, défense et victimes" },
+              { label: "Droit de la famille", href: "/expertises/droit-de-la-famille", desc: "Divorce, enfants, pension alimentaire" },
+              { label: "Droit routier", href: "/expertises/droit-routier", desc: "Permis, alcool au volant, infractions" },
+              { label: "Préjudice corporel", href: "/expertises/prejudice-corporel", desc: "Accidents, indemnisation, assureurs" },
+              { label: "Droit civil", href: "/expertises/droit-civil", desc: "Contrats, litiges, responsabilité" },
+              { label: "Droit des mineurs", href: "/expertises/droit-des-mineurs", desc: "Mineur mis en cause, protection de l'enfance" },
             ].map((domain, i) => (
               <ScrollReveal key={domain.href} delay={i * 80}>
               <Link

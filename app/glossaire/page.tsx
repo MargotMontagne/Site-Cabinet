@@ -22,12 +22,12 @@ export const metadata: Metadata = {
 };
 
 const domainesLinks = [
-  { label: "Droit pénal", href: "/domaines/droit-penal" },
-  { label: "Droit de la famille", href: "/domaines/droit-de-la-famille" },
-  { label: "Droit routier", href: "/domaines/droit-routier" },
-  { label: "Préjudice corporel", href: "/domaines/prejudice-corporel" },
-  { label: "Droit civil", href: "/domaines/droit-civil" },
-  { label: "Droit des mineurs", href: "/domaines/droit-des-mineurs" },
+  { label: "Droit pénal", href: "/expertises/droit-penal" },
+  { label: "Droit de la famille", href: "/expertises/droit-de-la-famille" },
+  { label: "Droit routier", href: "/expertises/droit-routier" },
+  { label: "Préjudice corporel", href: "/expertises/prejudice-corporel" },
+  { label: "Droit civil", href: "/expertises/droit-civil" },
+  { label: "Droit des mineurs", href: "/expertises/droit-des-mineurs" },
 ];
 
 const schemaOrg = {

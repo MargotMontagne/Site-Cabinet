@@ -3,7 +3,7 @@ import ScrollReveal from "./ScrollReveal";
 
 const domaines = [
   {
-    href: "/domaines/droit-penal",
+    href: "/expertises/droit-penal",
     title: "Droit pénal",
     description:
       "Mis en cause ou victime, vous méritez une défense immédiate et rigoureuse. Le cabinet intervient dès la garde à vue et assure votre défense à chaque stade de la procédure pénale, devant toutes les juridictions du Nord.",
@@ -15,7 +15,7 @@ const domaines = [
     urgent: true,
   },
   {
-    href: "/domaines/droit-des-mineurs",
+    href: "/expertises/droit-des-mineurs",
     title: "Droit des mineurs",
     description:
       "Quand un enfant ou un adolescent est impliqué dans une procédure judiciaire, chaque mot compte. Mineurs et familles sont accompagnés avec toute la bienveillance et la rigueur que la situation exige.",
@@ -27,7 +27,7 @@ const domaines = [
     urgent: false,
   },
   {
-    href: "/domaines/droit-de-la-famille",
+    href: "/expertises/droit-de-la-famille",
     title: "Droit de la famille",
     description:
       "Une séparation, un divorce, un désaccord sur la garde des enfants : ces épreuves touchent à l'essentiel. Maître Montagne vous accompagne pour trouver des solutions qui protègent votre famille et préservent l'intérêt de vos enfants.",
@@ -39,7 +39,7 @@ const domaines = [
     urgent: false,
   },
   {
-    href: "/domaines/droit-routier",
+    href: "/expertises/droit-routier",
     title: "Droit routier",
     description:
       "Un retrait de permis, c'est souvent aussi une perte d'emploi. Chaque dossier est examiné avec minutie pour contester les infractions contestables et limiter les conséquences sur votre vie professionnelle et personnelle.",
@@ -51,7 +51,7 @@ const domaines = [
     urgent: true,
   },
   {
-    href: "/domaines/droit-civil",
+    href: "/expertises/droit-civil",
     title: "Droit civil",
     description:
       "Un contrat non respecté, un voisin de mauvaise foi, une créance impayée : les litiges du quotidien méritent une réponse ferme et rapide. Le cabinet défend vos intérêts devant les juridictions civiles de Dunkerque et du Nord.",
@@ -63,7 +63,7 @@ const domaines = [
     urgent: false,
   },
   {
-    href: "/domaines/prejudice-corporel",
+    href: "/expertises/prejudice-corporel",
     title: "Préjudice corporel",
     description:
       "Après un accident ou une agression, les assureurs cherchent souvent à minimiser l'indemnisation. Maître Montagne défend chaque poste de préjudice avec détermination pour obtenir une réparation juste et intégrale.",

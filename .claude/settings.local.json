@@ -13,7 +13,9 @@
       "Bash(xargs sed:*)",
       "Bash(findstr -i logo)",
       "Bash(node -e \":*)",
-      "Bash(findstr /s /i /n \"explorer\\\\|associé\\\\|domaines associés\" \"C:\\\\Users\\\\33749\\\\Site Margot\\\\components\\\\DomainePage.tsx\")"
+      "Bash(findstr /s /i /n \"explorer\\\\|associé\\\\|domaines associés\" \"C:\\\\Users\\\\33749\\\\Site Margot\\\\components\\\\DomainePage.tsx\")",
+      "Bash(move \"C:\\\\Users\\\\33749\\\\Site Margot\\\\app\\\\domaines\" \"C:\\\\Users\\\\33749\\\\Site Margot\\\\app\\\\expertises\")",
+      "Bash(powershell -Command \"\\(Get-Content ''C:\\\\Users\\\\33749\\\\Site Margot\\\\lib\\\\glossaire-data.ts'' -Raw\\) -replace ''/domaines/'', ''/expertises/'' | Set-Content ''C:\\\\Users\\\\33749\\\\Site Margot\\\\lib\\\\glossaire-data.ts'' -NoNewline\")"
     ]
   }
 }

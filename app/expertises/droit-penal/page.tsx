@@ -18,12 +18,12 @@ export const metadata: Metadata = {
     "avocat mise en examen Dunkerque",
   ],
   alternates: {
-    canonical: "https://www.avocat-montagne.fr/domaines/droit-penal",
+    canonical: "https://www.avocat-montagne.fr/expertises/droit-penal",
   },
   openGraph: {
     title: "Avocat pénal Dunkerque | Garde à vue & défense | Maître Montagne",
     description: "Avocate pénaliste à Dunkerque. Garde à vue, tribunal correctionnel, défense des victimes. Intervention en urgence. ☎ 07 44 78 77 18.",
-    url: "https://www.avocat-montagne.fr/domaines/droit-penal",
+    url: "https://www.avocat-montagne.fr/expertises/droit-penal",
     type: "website",
     locale: "fr_FR",
   },
@@ -34,7 +34,7 @@ export default function DroitPenalPage() {
     <DomainePage
       image="droit-penal.webp"
       imagePosition="center 65%"
-      canonicalUrl="https://www.avocat-montagne.fr/domaines/droit-penal"
+      canonicalUrl="https://www.avocat-montagne.fr/expertises/droit-penal"
       breadcrumbLabel="Droit pénal"
       title="Avocat en droit pénal à Dunkerque"
       subtitle="Que vous soyez mis en cause ou victime d'une infraction pénale, le cabinet assure votre défense avec rigueur à chaque étape de la procédure."
@@ -156,17 +156,17 @@ export default function DroitPenalPage() {
       relatedLinks={[
         {
           label: "Droit routier",
-          href: "/domaines/droit-routier",
+          href: "/expertises/droit-routier",
           description: "Alcoolémie, stupéfiants au volant, excès de vitesse grave : des infractions routières qui relèvent aussi du droit pénal.",
         },
         {
           label: "Préjudice corporel",
-          href: "/domaines/prejudice-corporel",
+          href: "/expertises/prejudice-corporel",
           description: "Victime d'une infraction pénale ayant entraîné des blessures ? Le cabinet vous accompagne pour obtenir réparation de l'ensemble de vos préjudices.",
         },
         {
           label: "Droit des mineurs",
-          href: "/domaines/droit-des-mineurs",
+          href: "/expertises/droit-des-mineurs",
           description: "Un mineur mis en cause relève d'une procédure pénale spécifique. Le cabinet assure sa défense devant le tribunal pour enfants à chaque stade.",
         },
       ]}

@@ -16,12 +16,12 @@ export const metadata: Metadata = {
     "avocat injonction payer Dunkerque",
   ],
   alternates: {
-    canonical: "https://www.avocat-montagne.fr/domaines/droit-civil",
+    canonical: "https://www.avocat-montagne.fr/expertises/droit-civil",
   },
   openGraph: {
     title: "Avocat droit civil Dunkerque | Litiges et contrats | Maître Montagne",
     description: "Avocate en droit civil à Dunkerque. Litiges contractuels, voisinage, recouvrement de créances, responsabilité civile. Maître Margot Montagne. ☎ 07 44 78 77 18.",
-    url: "https://www.avocat-montagne.fr/domaines/droit-civil",
+    url: "https://www.avocat-montagne.fr/expertises/droit-civil",
     type: "website",
     locale: "fr_FR",
   },
@@ -33,7 +33,7 @@ export default function DroitCivilPage() {
       introLayout="full"
       whyChooseStyle="grid"
       image="Civil-hero.webp"
-      canonicalUrl="https://www.avocat-montagne.fr/domaines/droit-civil"
+      canonicalUrl="https://www.avocat-montagne.fr/expertises/droit-civil"
       breadcrumbLabel="Droit civil"
       title="Avocat en droit civil à Dunkerque"
       subtitle="Litiges entre particuliers, problèmes de voisinage, contrats non respectés, créances impayées : le cabinet défend vos intérêts avec méthode devant les juridictions civiles de Dunkerque."
@@ -152,12 +152,12 @@ export default function DroitCivilPage() {
       relatedLinks={[
         {
           label: "Préjudice corporel",
-          href: "/domaines/prejudice-corporel",
+          href: "/expertises/prejudice-corporel",
           description: "Un litige civil peut impliquer des dommages corporels. Le cabinet intervient sur les deux volets pour une prise en charge globale de votre préjudice.",
         },
         {
           label: "Droit de la famille",
-          href: "/domaines/droit-de-la-famille",
+          href: "/expertises/droit-de-la-famille",
           description: "Successions, partages entre héritiers et litiges patrimoniaux familiaux : le cabinet vous accompagne dans ces situations souvent délicates.",
         },
       ]}

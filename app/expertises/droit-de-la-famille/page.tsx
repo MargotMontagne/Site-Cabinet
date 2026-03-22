@@ -16,12 +16,12 @@ export const metadata: Metadata = {
     "avocat autorité parentale Dunkerque",
   ],
   alternates: {
-    canonical: "https://www.avocat-montagne.fr/domaines/droit-de-la-famille",
+    canonical: "https://www.avocat-montagne.fr/expertises/droit-de-la-famille",
   },
   openGraph: {
     title: "Avocat divorce Dunkerque | Droit de la famille | Maître Montagne",
     description: "Avocate en droit de la famille à Dunkerque. Divorce, garde des enfants, pension alimentaire, violence conjugale. Maître Margot Montagne. ☎ 07 44 78 77 18.",
-    url: "https://www.avocat-montagne.fr/domaines/droit-de-la-famille",
+    url: "https://www.avocat-montagne.fr/expertises/droit-de-la-famille",
     type: "website",
     locale: "fr_FR",
   },
@@ -34,7 +34,7 @@ export default function DroitFamillePage() {
       whyChooseStyle="grid"
       image="family-hero.webp"
       imagePosition="center 45%"
-      canonicalUrl="https://www.avocat-montagne.fr/domaines/droit-de-la-famille"
+      canonicalUrl="https://www.avocat-montagne.fr/expertises/droit-de-la-famille"
       breadcrumbLabel="Droit de la famille"
       title="Avocat en droit de la famille à Dunkerque"
       subtitle="Séparation, divorce, garde des enfants : dans les moments les plus douloureux de la vie personnelle, Maître Montagne vous accompagne avec rigueur et humanité."
@@ -152,17 +152,17 @@ export default function DroitFamillePage() {
       relatedLinks={[
         {
           label: "Droit des mineurs",
-          href: "/domaines/droit-des-mineurs",
+          href: "/expertises/droit-des-mineurs",
           description: "Quand une séparation implique des procédures concernant vos enfants devant le juge des enfants, le cabinet assure un accompagnement global.",
         },
         {
           label: "Droit civil",
-          href: "/domaines/droit-civil",
+          href: "/expertises/droit-civil",
           description: "Les successions et partages entre héritiers relèvent du droit civil. Le cabinet vous accompagne aussi dans ces démarches patrimoniales.",
         },
         {
           label: "Préjudice corporel",
-          href: "/domaines/prejudice-corporel",
+          href: "/expertises/prejudice-corporel",
           description: "Violences conjugales ou accidents impliquant un membre de la famille : lorsqu'une situation familiale engendre un préjudice corporel, le cabinet assure les deux volets.",
         },
       ]}

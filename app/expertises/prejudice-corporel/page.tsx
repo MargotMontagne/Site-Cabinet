@@ -16,12 +16,12 @@ export const metadata: Metadata = {
     "avocat assurance Dunkerque",
   ],
   alternates: {
-    canonical: "https://www.avocat-montagne.fr/domaines/prejudice-corporel",
+    canonical: "https://www.avocat-montagne.fr/expertises/prejudice-corporel",
   },
   openGraph: {
     title: "Avocat accident Dunkerque | Indemnisation préjudice corporel | Maître Montagne",
     description: "Avocate en réparation du préjudice corporel à Dunkerque. Accident, agression, erreur médicale. Face aux assureurs. Maître Margot Montagne. ☎ 07 44 78 77 18.",
-    url: "https://www.avocat-montagne.fr/domaines/prejudice-corporel",
+    url: "https://www.avocat-montagne.fr/expertises/prejudice-corporel",
     type: "website",
     locale: "fr_FR",
   },
@@ -33,7 +33,7 @@ export default function PrejudiceCorpoelPage() {
       introLayout="full"
       whyChooseStyle="grid"
       image="prejudice-hero.webp"
-      canonicalUrl="https://www.avocat-montagne.fr/domaines/prejudice-corporel"
+      canonicalUrl="https://www.avocat-montagne.fr/expertises/prejudice-corporel"
       breadcrumbLabel="Préjudice corporel"
       title="Avocat en préjudice corporel à Dunkerque"
       subtitle="Victime d'un accident ou d'une agression, vous méritez une indemnisation juste et complète. Maître Montagne se bat pour que chaque poste de préjudice soit reconnu et intégralement réparé."
@@ -151,17 +151,17 @@ export default function PrejudiceCorpoelPage() {
       relatedLinks={[
         {
           label: "Droit pénal",
-          href: "/domaines/droit-penal",
+          href: "/expertises/droit-penal",
           description: "Votre préjudice corporel est la conséquence d'une infraction pénale ? Le cabinet vous représente à la fois pour la défense pénale et l'indemnisation.",
         },
         {
           label: "Droit routier",
-          href: "/domaines/droit-routier",
+          href: "/expertises/droit-routier",
           description: "Accident de la route impliquant un conducteur fautif : le cabinet intervient sur les deux volets, pénal et indemnitaire.",
         },
         {
           label: "Droit de la famille",
-          href: "/domaines/droit-de-la-famille",
+          href: "/expertises/droit-de-la-famille",
           description: "Violences conjugales, accidents impliquant un enfant : certains préjudices corporels naissent dans le cadre familial et exigent une prise en charge globale.",
         },
       ]}

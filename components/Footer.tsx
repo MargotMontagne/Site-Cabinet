@@ -1,12 +1,12 @@
 import Link from "next/link";
 
 const domaines = [
-  { href: "/domaines/droit-penal", label: "Droit pénal" },
-  { href: "/domaines/droit-des-mineurs", label: "Droit des mineurs" },
-  { href: "/domaines/droit-de-la-famille", label: "Droit de la famille" },
-  { href: "/domaines/droit-routier", label: "Droit routier" },
-  { href: "/domaines/droit-civil", label: "Droit civil" },
-  { href: "/domaines/prejudice-corporel", label: "Préjudice corporel" },
+  { href: "/expertises/droit-penal", label: "Droit pénal" },
+  { href: "/expertises/droit-des-mineurs", label: "Droit des mineurs" },
+  { href: "/expertises/droit-de-la-famille", label: "Droit de la famille" },
+  { href: "/expertises/droit-routier", label: "Droit routier" },
+  { href: "/expertises/droit-civil", label: "Droit civil" },
+  { href: "/expertises/prejudice-corporel", label: "Préjudice corporel" },
 ];
 
 export default function Footer() {

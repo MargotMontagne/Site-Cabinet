@@ -16,12 +16,12 @@ export const metadata: Metadata = {
     "avocat tribunal correctionnel routier Dunkerque",
   ],
   alternates: {
-    canonical: "https://www.avocat-montagne.fr/domaines/droit-routier",
+    canonical: "https://www.avocat-montagne.fr/expertises/droit-routier",
   },
   openGraph: {
     title: "Avocat permis de conduire Dunkerque | Droit routier | Maître Montagne",
     description: "Avocate en droit routier à Dunkerque. Retrait de permis, alcoolémie, excès de vitesse, suspension. Maître Margot Montagne. ☎ 07 44 78 77 18.",
-    url: "https://www.avocat-montagne.fr/domaines/droit-routier",
+    url: "https://www.avocat-montagne.fr/expertises/droit-routier",
     type: "website",
     locale: "fr_FR",
   },
@@ -32,7 +32,7 @@ export default function DroitRoutierPage() {
     <DomainePage
       introLayout="sidebar"
       image="routier-hero.webp"
-      canonicalUrl="https://www.avocat-montagne.fr/domaines/droit-routier"
+      canonicalUrl="https://www.avocat-montagne.fr/expertises/droit-routier"
       breadcrumbLabel="Droit routier"
       title="Avocat en droit routier à Dunkerque"
       subtitle="Votre permis de conduire est votre liberté. Face à une infraction routière, un retrait ou une suspension de permis, Maître Montagne défend votre droit à la mobilité."
@@ -155,12 +155,12 @@ export default function DroitRoutierPage() {
       relatedLinks={[
         {
           label: "Droit pénal",
-          href: "/domaines/droit-penal",
+          href: "/expertises/droit-penal",
           description: "Alcoolémie et stupéfiants au volant sont des infractions pénales. Le cabinet assure votre défense dès la garde à vue jusqu'à l'audience correctionnelle.",
         },
         {
           label: "Préjudice corporel",
-          href: "/domaines/prejudice-corporel",
+          href: "/expertises/prejudice-corporel",
           description: "Victime d'un accident de la route avec blessures ? Maître Montagne vous accompagne pour obtenir la réparation intégrale de votre préjudice.",
         },
       ]}
