@@ -15,13 +15,13 @@ const CookieBanner = dynamic(() => import("@/components/CookieBanner"), {
 const inter = Plus_Jakarta_Sans({
   subsets: ["latin"],
   variable: "--font-inter",
-  display: "swap",
+  display: "optional",
 });
 
 const playfair = Lora({
   subsets: ["latin"],
   variable: "--font-playfair",
-  display: "swap",
+  display: "optional",
 });
 
 export const metadata: Metadata = {
