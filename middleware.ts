@@ -10,7 +10,7 @@ export function middleware(request: NextRequest) {
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
     "font-src 'self' https://fonts.gstatic.com",
     "img-src 'self' data: blob:",
-    "frame-src https://cal.eu",
+    "frame-src https://cal.eu https://maps.google.com https://www.google.com",
     "connect-src 'self' https://formspree.io",
     "object-src 'none'",
     "base-uri 'self'",
