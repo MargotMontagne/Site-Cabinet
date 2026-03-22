@@ -68,7 +68,7 @@ export const metadata: Metadata = {
       "Avocate au Barreau de Dunkerque, Maître Montagne défend vos droits en droit pénal, droit de la famille, droit routier et préjudice corporel. Disponible rapidement.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://avocat-montagne.fr/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Maître Margot Montagne — Avocate à Dunkerque",
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
     title: "Maître Margot Montagne — Avocate à Dunkerque",
     description:
       "Avocate au Barreau de Dunkerque. Droit pénal, famille, routier. Intervention rapide.",
-    images: ["/og-image.jpg"],
+    images: ["https://avocat-montagne.fr/og-image.jpg"],
   },
   alternates: {
     canonical: "https://avocat-montagne.fr",
