@@ -7,6 +7,7 @@ import StickyCallButton from "@/components/StickyCallButton";
 import ScrollToTop from "@/components/ScrollToTop";
 import dynamic from "next/dynamic";
 import SchemaOrg from "@/components/SchemaOrg";
+import GTM from "@/components/GTM";
 
 const CookieBanner = dynamic(() => import("@/components/CookieBanner"), {
   ssr: false,
@@ -68,8 +69,8 @@ export const metadata: Metadata = {
       "Avocate au Barreau de Dunkerque, Maître Montagne défend vos droits en droit pénal, droit de la famille, droit routier et préjudice corporel. Disponible rapidement.",
     images: [
       {
-        url: "https://avocat-montagne.fr/og-image.jpg",
-        secureUrl: "https://avocat-montagne.fr/og-image.jpg",
+        url: "https://avocat-montagne.fr/og-image.jpg?v=2",
+        secureUrl: "https://avocat-montagne.fr/og-image.jpg?v=2",
         width: 1200,
         height: 630,
         alt: "Maître Margot Montagne — Avocate à Dunkerque",
@@ -82,7 +83,7 @@ export const metadata: Metadata = {
     title: "Maître Margot Montagne — Avocate à Dunkerque",
     description:
       "Avocate au Barreau de Dunkerque. Droit pénal, famille, routier. Intervention rapide.",
-    images: ["https://avocat-montagne.fr/og-image.jpg"],
+    images: ["https://avocat-montagne.fr/og-image.jpg?v=2"],
   },
   alternates: {
     canonical: "https://avocat-montagne.fr",
@@ -97,6 +98,7 @@ export default function RootLayout({
   return (
     <html lang="fr" className={`${inter.variable} ${playfair.variable}`}>
       <body className="antialiased">
+        <GTM />
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[200] focus:bg-white focus:px-4 focus:py-2 focus:rounded focus:text-forest-600 focus:font-medium focus:shadow-lg"
