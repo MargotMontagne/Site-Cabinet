@@ -28,13 +28,13 @@ const documentGroups: DocumentGroup[] = [
     label: "Accès au droit & honoraires",
     docs: [
       {
-        title: "Demande d'aide juridictionnelle",
-        desc: "Cerfa n°15626 — prise en charge des frais d'avocat par l'État sous conditions de ressources.",
+        title: "Formulaire de demande d'aide juridictionnelle",
+        desc: "Cerfa officiel — prise en charge des frais d'avocat par l'État sous conditions de ressources.",
         href: "https://www.service-public.fr/particuliers/vosdroits/R1444",
       },
       {
-        title: "Vérifier son éligibilité à l'aide juridictionnelle",
-        desc: "Simulateur officiel pour savoir si vous pouvez bénéficier de la prise en charge totale ou partielle.",
+        title: "Conditions d'éligibilité à l'aide juridictionnelle",
+        desc: "Informations officielles sur les plafonds de ressources et les démarches à suivre.",
         href: "https://www.service-public.fr/particuliers/vosdroits/F18074",
       },
     ],
@@ -43,14 +43,14 @@ const documentGroups: DocumentGroup[] = [
     label: "Droit routier",
     docs: [
       {
-        title: "Requête en exonération d'une contravention",
-        desc: "Contester un PV radar ou une contravention auprès de l'Officier du Ministère Public.",
-        href: "https://www.service-public.fr/particuliers/vosdroits/R14140",
+        title: "Contester une amende — requête en exonération",
+        desc: "Procédure officielle pour contester un PV radar ou une contravention dans les 45 jours.",
+        href: "https://www.service-public.fr/particuliers/vosdroits/F18509",
       },
       {
-        title: "Contester une suspension administrative du permis",
-        desc: "Démarche pour contester une suspension préfectorale de permis de conduire.",
-        href: "https://www.service-public.fr/particuliers/vosdroits/F21520",
+        title: "Suspension administrative du permis",
+        desc: "Infractions déclenchant la suspension, délais préfectoraux et procédures de contestation.",
+        href: "https://www.service-public.fr/particuliers/vosdroits/F14836",
       },
       {
         title: "Constat amiable après un accident",
@@ -64,18 +64,18 @@ const documentGroups: DocumentGroup[] = [
     docs: [
       {
         title: "Déposer une plainte",
-        desc: "Informations officielles sur le dépôt de plainte en ligne ou au commissariat.",
+        desc: "Modalités de dépôt de plainte en ligne, au commissariat ou par courrier.",
         href: "https://www.service-public.fr/particuliers/vosdroits/F1435",
       },
       {
-        title: "Demande d'indemnisation CIVI",
-        desc: "Saisir la Commission d'Indemnisation des Victimes d'Infractions après une infraction pénale.",
-        href: "https://www.service-public.fr/particuliers/vosdroits/R46478",
+        title: "Formulaire d'indemnisation CIVI",
+        desc: "Cerfa officiel pour saisir la Commission d'Indemnisation des Victimes d'Infractions (CIVI / FGTI).",
+        href: "https://www.service-public.fr/particuliers/vosdroits/R18782",
       },
       {
-        title: "Demande d'aide aux victimes",
-        desc: "Associations et dispositifs d'aide aux victimes d'infractions référencés par le Ministère de la Justice.",
-        href: "https://www.service-public.fr/particuliers/vosdroits/F1381",
+        title: "Aide aux victimes d'infractions",
+        desc: "Droits des victimes, associations France Victimes, numéro 116 006 et bureaux d'aide aux victimes.",
+        href: "https://www.service-public.fr/particuliers/vosdroits/F20789",
       },
     ],
   },
@@ -93,9 +93,9 @@ const documentGroups: DocumentGroup[] = [
         href: "https://www.service-public.fr/particuliers/vosdroits/F10567",
       },
       {
-        title: "Demande d'ordonnance de protection",
-        desc: "Procédure d'urgence pour les victimes de violences conjugales — décision en 6 jours.",
-        href: "https://www.service-public.fr/particuliers/vosdroits/F2021",
+        title: "Formulaire de requête — ordonnance de protection",
+        desc: "Cerfa pour saisir le JAF en urgence en cas de violences conjugales — décision sous 6 jours.",
+        href: "https://www.service-public.fr/particuliers/vosdroits/R42412",
       },
     ],
   },
@@ -108,9 +108,9 @@ const documentGroups: DocumentGroup[] = [
         href: "https://www.service-public.fr/particuliers/vosdroits/F1746",
       },
       {
-        title: "Saisir le tribunal judiciaire",
-        desc: "Démarches pour introduire une action civile en justice (litiges entre particuliers ou avec une entreprise).",
-        href: "https://www.service-public.fr/particuliers/vosdroits/F1490",
+        title: "Formulaire de requête — tribunal judiciaire",
+        desc: "Cerfa pour introduire une action civile en justice (litiges entre particuliers ou avec une entreprise).",
+        href: "https://www.service-public.fr/particuliers/vosdroits/R14232",
       },
     ],
   },
@@ -118,14 +118,14 @@ const documentGroups: DocumentGroup[] = [
     label: "Préjudice corporel",
     docs: [
       {
-        title: "Saisir la CRCI / Commission médicale",
-        desc: "Procédure de règlement amiable pour les accidents médicaux — Commission de Conciliation et d'Indemnisation.",
-        href: "https://www.service-public.fr/particuliers/vosdroits/F10414",
+        title: "Formulaire de saisine de la CCI",
+        desc: "Cerfa pour saisir la Commission de Conciliation et d'Indemnisation en cas d'accident médical ou infection nosocomiale.",
+        href: "https://www.service-public.fr/particuliers/vosdroits/R1459",
       },
       {
         title: "Indemnisation après un accident de la route",
-        desc: "Droits des victimes d'accident corporel et procédure d'indemnisation par l'assureur.",
-        href: "https://www.service-public.fr/particuliers/vosdroits/F2033",
+        desc: "Loi Badinter, droits des victimes de dommages corporels et procédure d'indemnisation par l'assureur.",
+        href: "https://www.service-public.fr/particuliers/vosdroits/F2677",
       },
     ],
   },
