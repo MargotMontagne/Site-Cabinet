@@ -49,7 +49,7 @@ const reasons = [
 
 export default function WhyUsSection() {
   return (
-    <section className="section-padding bg-white" id="pourquoi-nous">
+    <section className="section-padding bg-stone-50" id="pourquoi-nous">
       <div className="section-container">
 
         <ScrollReveal>
