@@ -69,9 +69,11 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://avocat-montagne.fr/og-image.jpg",
+        secureUrl: "https://avocat-montagne.fr/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Maître Margot Montagne — Avocate à Dunkerque",
+        type: "image/jpeg",
       },
     ],
   },
