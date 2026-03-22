@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import CTASection from "@/components/CTASection";
 import ScrollReveal from "@/components/ScrollReveal";
+import { headers } from "next/headers";
 
 interface Situation {
   title: string;
@@ -58,7 +59,7 @@ interface DomainePageProps {
   calloutPosition?: "after-intro" | "after-profiles" | "after-situations";
 }
 
-export default function DomainePage({
+export default async function DomainePage({
   title,
   subtitle,
   situations,
@@ -80,6 +81,7 @@ export default function DomainePage({
   callout,
   calloutPosition = "after-intro",
 }: DomainePageProps) {
+  const nonce = (await headers()).get("x-nonce") ?? undefined;
   const faqSchema = faqItems && faqItems.length > 0 ? {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -154,10 +156,10 @@ export default function DomainePage({
   return (
     <>
       {faqSchema && (
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+        <script nonce={nonce} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       )}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(legalServiceSchema) }} />
+      <script nonce={nonce} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script nonce={nonce} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(legalServiceSchema) }} />
       {/* Hero avec image de fond */}
       <section className="relative bg-stone-950 pt-36 lg:pt-40 pb-20 overflow-hidden">
         {image && (

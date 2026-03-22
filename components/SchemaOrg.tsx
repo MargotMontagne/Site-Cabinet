@@ -1,4 +1,8 @@
-export default function SchemaOrg() {
+import { headers } from "next/headers";
+
+export default async function SchemaOrg() {
+  const nonce = (await headers()).get("x-nonce") ?? undefined;
+
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -46,38 +50,23 @@ export default function SchemaOrg() {
           itemListElement: [
             {
               "@type": "Offer",
-              itemOffered: {
-                "@type": "Service",
-                name: "Droit pénal",
-              },
+              itemOffered: { "@type": "Service", name: "Droit pénal" },
             },
             {
               "@type": "Offer",
-              itemOffered: {
-                "@type": "Service",
-                name: "Droit de la famille",
-              },
+              itemOffered: { "@type": "Service", name: "Droit de la famille" },
             },
             {
               "@type": "Offer",
-              itemOffered: {
-                "@type": "Service",
-                name: "Droit routier",
-              },
+              itemOffered: { "@type": "Service", name: "Droit routier" },
             },
             {
               "@type": "Offer",
-              itemOffered: {
-                "@type": "Service",
-                name: "Droit des mineurs",
-              },
+              itemOffered: { "@type": "Service", name: "Droit des mineurs" },
             },
             {
               "@type": "Offer",
-              itemOffered: {
-                "@type": "Service",
-                name: "Droit civil",
-              },
+              itemOffered: { "@type": "Service", name: "Droit civil" },
             },
             {
               "@type": "Offer",
@@ -113,6 +102,7 @@ export default function SchemaOrg() {
 
   return (
     <script
+      nonce={nonce}
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
     />

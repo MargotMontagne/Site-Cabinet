@@ -3,6 +3,7 @@ import Link from "next/link";
 import CTASection from "@/components/CTASection";
 import dynamic from "next/dynamic";
 import { glossaire } from "@/lib/glossaire-data";
+import { headers } from "next/headers";
 
 const GlossaireSearch = dynamic(() => import("@/components/GlossaireSearch"), {
   ssr: false,
@@ -44,10 +45,12 @@ const schemaOrg = {
   })),
 };
 
-export default function GlossairePage() {
+export default async function GlossairePage() {
+  const nonce = (await headers()).get("x-nonce") ?? undefined;
   return (
     <>
       <script
+        nonce={nonce}
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrg) }}
       />
