@@ -522,7 +522,7 @@ export default function DomainePage({
                           <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                         </svg>
                       </div>
-                      <p className="text-gray-600 text-sm leading-relaxed">{reason}</p>
+                      <p className="text-gray-600 text-sm leading-relaxed">{typeof reason === "object" ? reason.description : reason}</p>
                     </li>
                   ))}
                 </ul>
