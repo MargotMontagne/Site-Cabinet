@@ -15,7 +15,11 @@
       "Bash(node -e \":*)",
       "Bash(findstr /s /i /n \"explorer\\\\|associé\\\\|domaines associés\" \"C:\\\\Users\\\\33749\\\\Site Margot\\\\components\\\\DomainePage.tsx\")",
       "Bash(move \"C:\\\\Users\\\\33749\\\\Site Margot\\\\app\\\\domaines\" \"C:\\\\Users\\\\33749\\\\Site Margot\\\\app\\\\expertises\")",
-      "Bash(powershell -Command \"\\(Get-Content ''C:\\\\Users\\\\33749\\\\Site Margot\\\\lib\\\\glossaire-data.ts'' -Raw\\) -replace ''/domaines/'', ''/expertises/'' | Set-Content ''C:\\\\Users\\\\33749\\\\Site Margot\\\\lib\\\\glossaire-data.ts'' -NoNewline\")"
+      "Bash(powershell -Command \"\\(Get-Content ''C:\\\\Users\\\\33749\\\\Site Margot\\\\lib\\\\glossaire-data.ts'' -Raw\\) -replace ''/domaines/'', ''/expertises/'' | Set-Content ''C:\\\\Users\\\\33749\\\\Site Margot\\\\lib\\\\glossaire-data.ts'' -NoNewline\")",
+      "WebFetch(domain:avocat-montagne.fr)",
+      "WebFetch(domain:www.service-public.fr)",
+      "WebFetch(domain:www.service-public.gouv.fr)",
+      "WebFetch(domain:www.google.fr)"
     ]
   }
 }

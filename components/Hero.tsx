@@ -22,7 +22,7 @@ export default function Hero() {
       </div>
 
       <div className="section-container relative w-full pb-20 lg:pb-28 pt-44 hero-fade-in">
-        <div className="max-w-3xl backdrop-blur-sm bg-stone-950/25 rounded-2xl px-8 py-10 -mx-8">
+        <div className="max-w-3xl backdrop-blur-sm bg-stone-950/25 rounded-2xl px-6 sm:px-10 py-8 sm:py-10">
           {/* Badge disponibilité */}
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 mb-8">
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse flex-shrink-0" />
