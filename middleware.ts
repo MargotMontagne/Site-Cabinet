@@ -11,7 +11,7 @@ export function middleware(request: NextRequest) {
     "font-src 'self' https://fonts.gstatic.com",
     "img-src 'self' data: blob: https://www.googletagmanager.com https://www.google-analytics.com https://stats.g.doubleclick.net",
     "frame-src https://cal.eu https://maps.google.com https://www.google.com https://maps.googleapis.com https://www.googletagmanager.com",
-    "connect-src 'self' https://formspree.io https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net https://region1.analytics.google.com",
+    "connect-src 'self' https://formspree.io https://www.googletagmanager.com https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net https://region1.analytics.google.com https://region1.google-analytics.com",
     "object-src 'none'",
     "base-uri 'self'",
     "form-action 'self'",
