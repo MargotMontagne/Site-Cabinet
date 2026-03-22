@@ -65,6 +65,9 @@ export default function ContactForm() {
       if (res.ok) {
         setStatus("success");
         reset();
+        // Événement GTM / GA4
+        (window as any).dataLayer = (window as any).dataLayer || [];
+        (window as any).dataLayer.push({ event: "form_submit", form_name: "contact" });
       } else {
         setStatus("error");
       }
