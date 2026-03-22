@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://www.avocat-montagne.fr/sitemap.xml
+Sitemap: https://avocat-montagne.fr/sitemap.xml

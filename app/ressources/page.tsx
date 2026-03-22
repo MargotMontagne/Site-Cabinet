@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Glossaire juridique, guides pratiques et documents utiles. Comprenez vos droits avant de consulter. Maître Margot Montagne, avocate à Dunkerque — 07 44 78 77 18.",
   alternates: {
-    canonical: "https://www.avocat-montagne.fr/ressources",
+    canonical: "https://avocat-montagne.fr/ressources",
   },
 };
 

@@ -15,12 +15,12 @@ export const metadata: Metadata = {
     "avocat tribunal pour enfants Dunkerque",
   ],
   alternates: {
-    canonical: "https://www.avocat-montagne.fr/expertises/droit-des-mineurs",
+    canonical: "https://avocat-montagne.fr/expertises/droit-des-mineurs",
   },
   openGraph: {
     title: "Avocat droit des mineurs Dunkerque | Protection enfance | Maître Montagne",
     description: "Avocate en droit des mineurs à Dunkerque. Assistance éducative, mineur mis en cause, protection de l'enfance. Maître Margot Montagne. ☎ 07 44 78 77 18.",
-    url: "https://www.avocat-montagne.fr/expertises/droit-des-mineurs",
+    url: "https://avocat-montagne.fr/expertises/droit-des-mineurs",
     type: "website",
     locale: "fr_FR",
   },
@@ -33,7 +33,7 @@ export default function DroitMineursPage() {
       whyChooseStyle="list"
       image="Hero-mineurs.webp"
       imagePosition="center"
-      canonicalUrl="https://www.avocat-montagne.fr/expertises/droit-des-mineurs"
+      canonicalUrl="https://avocat-montagne.fr/expertises/droit-des-mineurs"
       breadcrumbLabel="Droit des mineurs"
       title="Avocat en droit des mineurs à Dunkerque"
       subtitle="Le cabinet accompagne les mineurs, les parents et les familles dans les procédures d'assistance éducative et les affaires pénales impliquant des jeunes, avec bienveillance et rigueur."

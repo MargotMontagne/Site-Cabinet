@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Parcours et engagement de Maître Margot Montagne, avocate au Barreau de Dunkerque depuis 2020. Master II droit privé — Université Lille II. Cabinet dédié aux particuliers.",
   alternates: {
-    canonical: "https://www.avocat-montagne.fr/a-propos",
+    canonical: "https://avocat-montagne.fr/a-propos",
   },
 };
 

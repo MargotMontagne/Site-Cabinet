@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Honoraires de Maître Margot Montagne, avocate à Dunkerque. Taux horaire, forfait, convention d'honoraires, aide juridictionnelle, protection juridique. Appelez le 07 44 78 77 18.",
   alternates: {
-    canonical: "https://www.avocat-montagne.fr/honoraires",
+    canonical: "https://avocat-montagne.fr/honoraires",
   },
 };
 

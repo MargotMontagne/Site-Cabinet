@@ -16,12 +16,12 @@ export const metadata: Metadata = {
     "avocat tribunal correctionnel routier Dunkerque",
   ],
   alternates: {
-    canonical: "https://www.avocat-montagne.fr/expertises/droit-routier",
+    canonical: "https://avocat-montagne.fr/expertises/droit-routier",
   },
   openGraph: {
     title: "Avocat permis de conduire Dunkerque | Droit routier | Maître Montagne",
     description: "Avocate en droit routier à Dunkerque. Retrait de permis, alcoolémie, excès de vitesse, suspension. Maître Margot Montagne. ☎ 07 44 78 77 18.",
-    url: "https://www.avocat-montagne.fr/expertises/droit-routier",
+    url: "https://avocat-montagne.fr/expertises/droit-routier",
     type: "website",
     locale: "fr_FR",
   },
@@ -32,7 +32,7 @@ export default function DroitRoutierPage() {
     <DomainePage
       introLayout="sidebar"
       image="Routier-hero.webp"
-      canonicalUrl="https://www.avocat-montagne.fr/expertises/droit-routier"
+      canonicalUrl="https://avocat-montagne.fr/expertises/droit-routier"
       breadcrumbLabel="Droit routier"
       title="Avocat en droit routier à Dunkerque"
       subtitle="Votre permis de conduire est votre liberté. Face à une infraction routière, un retrait ou une suspension de permis, Maître Montagne défend votre droit à la mobilité."

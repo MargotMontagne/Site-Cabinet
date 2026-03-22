@@ -18,12 +18,12 @@ export const metadata: Metadata = {
     "avocat mise en examen Dunkerque",
   ],
   alternates: {
-    canonical: "https://www.avocat-montagne.fr/expertises/droit-penal",
+    canonical: "https://avocat-montagne.fr/expertises/droit-penal",
   },
   openGraph: {
     title: "Avocat pénal Dunkerque | Garde à vue & défense | Maître Montagne",
     description: "Avocate pénaliste à Dunkerque. Garde à vue, tribunal correctionnel, défense des victimes. Intervention en urgence. ☎ 07 44 78 77 18.",
-    url: "https://www.avocat-montagne.fr/expertises/droit-penal",
+    url: "https://avocat-montagne.fr/expertises/droit-penal",
     type: "website",
     locale: "fr_FR",
   },
@@ -34,7 +34,7 @@ export default function DroitPenalPage() {
     <DomainePage
       image="Droit-penal.webp"
       imagePosition="center 65%"
-      canonicalUrl="https://www.avocat-montagne.fr/expertises/droit-penal"
+      canonicalUrl="https://avocat-montagne.fr/expertises/droit-penal"
       breadcrumbLabel="Droit pénal"
       title="Avocat en droit pénal à Dunkerque"
       subtitle="Que vous soyez mis en cause ou victime d'une infraction pénale, le cabinet assure votre défense avec rigueur à chaque étape de la procédure."

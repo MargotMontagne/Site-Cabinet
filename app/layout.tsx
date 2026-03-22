@@ -25,7 +25,7 @@ const playfair = Lora({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.avocat-montagne.fr"),
+  metadataBase: new URL("https://avocat-montagne.fr"),
   title: {
     default: "Maître Margot Montagne — Avocate à Dunkerque",
     template: "%s | Maître Margot Montagne — Avocate à Dunkerque",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://www.avocat-montagne.fr",
+    url: "https://avocat-montagne.fr",
     siteName: "Cabinet Margot Montagne — Avocate à Dunkerque",
     title: "Maître Margot Montagne — Avocate à Dunkerque",
     description:
@@ -83,7 +83,7 @@ export const metadata: Metadata = {
     images: ["/og-image.jpg"],
   },
   alternates: {
-    canonical: "https://www.avocat-montagne.fr",
+    canonical: "https://avocat-montagne.fr",
   },
 };
 

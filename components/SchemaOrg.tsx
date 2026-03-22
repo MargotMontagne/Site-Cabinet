@@ -8,10 +8,10 @@ export default async function SchemaOrg() {
     "@graph": [
       {
         "@type": "LegalService",
-        "@id": "https://www.avocat-montagne.fr/#organization",
+        "@id": "https://avocat-montagne.fr/#organization",
         name: "Cabinet Margot Montagne",
         alternateName: "Maître Margot Montagne",
-        url: "https://www.avocat-montagne.fr",
+        url: "https://avocat-montagne.fr",
         telephone: "+33744787718",
         email: "margot.montagne.avocat@gmail.com",
         description:
@@ -89,11 +89,11 @@ export default async function SchemaOrg() {
       },
       {
         "@type": "WebSite",
-        "@id": "https://www.avocat-montagne.fr/#website",
-        url: "https://www.avocat-montagne.fr",
+        "@id": "https://avocat-montagne.fr/#website",
+        url: "https://avocat-montagne.fr",
         name: "Cabinet Margot Montagne — Avocate à Dunkerque",
         publisher: {
-          "@id": "https://www.avocat-montagne.fr/#organization",
+          "@id": "https://avocat-montagne.fr/#organization",
         },
         inLanguage: "fr-FR",
       },

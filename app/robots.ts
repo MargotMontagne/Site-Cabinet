@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/_next/"],
     },
-    sitemap: "https://www.avocat-montagne.fr/sitemap.xml",
+    sitemap: "https://avocat-montagne.fr/sitemap.xml",
   };
 }

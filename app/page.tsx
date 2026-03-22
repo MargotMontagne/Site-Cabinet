@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     "Maître Margot Montagne, avocate au Barreau de Dunkerque. Droit pénal, droit de la famille, droit routier, préjudice corporel. Disponible pour urgences. Appelez le 07 44 78 77 18.",
   alternates: {
-    canonical: "https://www.avocat-montagne.fr",
+    canonical: "https://avocat-montagne.fr",
   },
 };
 

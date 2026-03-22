@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description:
     "Contactez Maître Margot Montagne, avocate à Dunkerque. Téléphone, email, formulaire de contact. Cabinet au 6 Rue du Sud, 59140 Dunkerque. Urgences : 07 44 78 77 18.",
   alternates: {
-    canonical: "https://www.avocat-montagne.fr/contact",
+    canonical: "https://avocat-montagne.fr/contact",
   },
 };
 

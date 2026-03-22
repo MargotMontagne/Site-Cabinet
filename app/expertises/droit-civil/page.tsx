@@ -16,12 +16,12 @@ export const metadata: Metadata = {
     "avocat injonction payer Dunkerque",
   ],
   alternates: {
-    canonical: "https://www.avocat-montagne.fr/expertises/droit-civil",
+    canonical: "https://avocat-montagne.fr/expertises/droit-civil",
   },
   openGraph: {
     title: "Avocat droit civil Dunkerque | Litiges et contrats | Maître Montagne",
     description: "Avocate en droit civil à Dunkerque. Litiges contractuels, voisinage, recouvrement de créances, responsabilité civile. Maître Margot Montagne. ☎ 07 44 78 77 18.",
-    url: "https://www.avocat-montagne.fr/expertises/droit-civil",
+    url: "https://avocat-montagne.fr/expertises/droit-civil",
     type: "website",
     locale: "fr_FR",
   },
@@ -33,7 +33,7 @@ export default function DroitCivilPage() {
       introLayout="full"
       whyChooseStyle="grid"
       image="Civil-hero.webp"
-      canonicalUrl="https://www.avocat-montagne.fr/expertises/droit-civil"
+      canonicalUrl="https://avocat-montagne.fr/expertises/droit-civil"
       breadcrumbLabel="Droit civil"
       title="Avocat en droit civil à Dunkerque"
       subtitle="Litiges entre particuliers, problèmes de voisinage, contrats non respectés, créances impayées : le cabinet défend vos intérêts avec méthode devant les juridictions civiles de Dunkerque."

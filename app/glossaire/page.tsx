@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     `${glossaire.length} termes juridiques expliqués simplement : garde à vue, mise en examen, préjudice corporel, JAF, référé... Maître Margot Montagne, avocate à Dunkerque.`,
   alternates: {
-    canonical: "https://www.avocat-montagne.fr/glossaire",
+    canonical: "https://avocat-montagne.fr/glossaire",
   },
 };
 
@@ -35,13 +35,13 @@ const schemaOrg = {
   "@type": "DefinedTermSet",
   "name": "Glossaire juridique — Cabinet Margot Montagne",
   "description": `${glossaire.length} termes juridiques expliqués simplement par Maître Margot Montagne, avocate à Dunkerque.`,
-  "url": "https://www.avocat-montagne.fr/glossaire",
+  "url": "https://avocat-montagne.fr/glossaire",
   "hasDefinedTerm": glossaire.map((item) => ({
     "@type": "DefinedTerm",
     "name": item.terme,
     "description": item.definition,
-    "inDefinedTermSet": "https://www.avocat-montagne.fr/glossaire",
-    "url": `https://www.avocat-montagne.fr${item.href}`,
+    "inDefinedTermSet": "https://avocat-montagne.fr/glossaire",
+    "url": `https://avocat-montagne.fr${item.href}`,
   })),
 };
 

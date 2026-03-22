@@ -16,12 +16,12 @@ export const metadata: Metadata = {
     "avocat autorité parentale Dunkerque",
   ],
   alternates: {
-    canonical: "https://www.avocat-montagne.fr/expertises/droit-de-la-famille",
+    canonical: "https://avocat-montagne.fr/expertises/droit-de-la-famille",
   },
   openGraph: {
     title: "Avocat divorce Dunkerque | Droit de la famille | Maître Montagne",
     description: "Avocate en droit de la famille à Dunkerque. Divorce, garde des enfants, pension alimentaire, violence conjugale. Maître Margot Montagne. ☎ 07 44 78 77 18.",
-    url: "https://www.avocat-montagne.fr/expertises/droit-de-la-famille",
+    url: "https://avocat-montagne.fr/expertises/droit-de-la-famille",
     type: "website",
     locale: "fr_FR",
   },
@@ -34,7 +34,7 @@ export default function DroitFamillePage() {
       whyChooseStyle="grid"
       image="family-hero.webp"
       imagePosition="center 45%"
-      canonicalUrl="https://www.avocat-montagne.fr/expertises/droit-de-la-famille"
+      canonicalUrl="https://avocat-montagne.fr/expertises/droit-de-la-famille"
       breadcrumbLabel="Droit de la famille"
       title="Avocat en droit de la famille à Dunkerque"
       subtitle="Séparation, divorce, garde des enfants : dans les moments les plus douloureux de la vie personnelle, Maître Montagne vous accompagne avec rigueur et humanité."

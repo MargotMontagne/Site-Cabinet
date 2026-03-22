@@ -96,8 +96,8 @@ export default async function DomainePage({
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.avocat-montagne.fr" },
-      { "@type": "ListItem", "position": 2, "name": "Expertises", "item": "https://www.avocat-montagne.fr/#domaines" },
+      { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://avocat-montagne.fr" },
+      { "@type": "ListItem", "position": 2, "name": "Expertises", "item": "https://avocat-montagne.fr/#domaines" },
       { "@type": "ListItem", "position": 3, "name": breadcrumbLabel, "item": canonicalUrl },
     ],
   };
