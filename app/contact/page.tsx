@@ -30,7 +30,7 @@ export default function ContactPage() {
         {/* Image de fond */}
         <div className="absolute inset-0" aria-hidden="true">
           <Image
-            src="/contact-hero.webp"
+            src="/Contact-hero.webp"
             alt=""
             fill
             priority

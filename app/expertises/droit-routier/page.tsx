@@ -31,7 +31,7 @@ export default function DroitRoutierPage() {
   return (
     <DomainePage
       introLayout="sidebar"
-      image="routier-hero.webp"
+      image="Routier-hero.webp"
       canonicalUrl="https://www.avocat-montagne.fr/expertises/droit-routier"
       breadcrumbLabel="Droit routier"
       title="Avocat en droit routier à Dunkerque"

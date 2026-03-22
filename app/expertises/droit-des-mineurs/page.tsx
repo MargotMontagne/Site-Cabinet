@@ -31,7 +31,7 @@ export default function DroitMineursPage() {
     <DomainePage
       introLayout="sidebar"
       whyChooseStyle="list"
-      image="hero-mineurs.webp"
+      image="Hero-mineurs.webp"
       imagePosition="center"
       canonicalUrl="https://www.avocat-montagne.fr/expertises/droit-des-mineurs"
       breadcrumbLabel="Droit des mineurs"

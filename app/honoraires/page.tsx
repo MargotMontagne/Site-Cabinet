@@ -59,7 +59,7 @@ export default function HonorairesPage() {
         {/* Image de fond */}
         <div className="absolute inset-0" aria-hidden="true">
           <Image
-            src="/honoraire-hero.webp"
+            src="/Honoraire-hero.webp"
             alt=""
             fill
             priority

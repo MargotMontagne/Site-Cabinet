@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 export default function DroitPenalPage() {
   return (
     <DomainePage
-      image="droit-penal.webp"
+      image="Droit-penal.webp"
       imagePosition="center 65%"
       canonicalUrl="https://www.avocat-montagne.fr/expertises/droit-penal"
       breadcrumbLabel="Droit pénal"
