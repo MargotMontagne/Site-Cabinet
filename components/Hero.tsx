@@ -21,27 +21,27 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-stone-950/20 to-transparent" />
       </div>
 
-      <div className="section-container relative w-full pb-20 lg:pb-28 pt-44 hero-fade-in">
-        <div className="max-w-3xl backdrop-blur-sm bg-stone-950/25 rounded-2xl px-6 sm:px-10 py-8 sm:py-10">
+      <div className="section-container relative w-full pb-10 sm:pb-20 lg:pb-28 pt-28 sm:pt-36 lg:pt-44 hero-fade-in">
+        <div className="max-w-3xl backdrop-blur-sm bg-stone-950/25 rounded-2xl px-6 sm:px-10 py-6 sm:py-10">
           {/* Badge disponibilité */}
-          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 mb-8">
+          <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-1.5 mb-4 sm:mb-8">
             <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse flex-shrink-0" />
             <span className="text-xs font-medium text-white/90 tracking-wide">
               Disponible rapidement · Intervention en urgence
             </span>
           </div>
 
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-white leading-[1.1] mb-6">
+          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-white leading-[1.1] mb-4 sm:mb-6">
             Maître Margot Montagne,<br />
             <span className="text-forest-200">avocate à Dunkerque</span>
           </h1>
 
-          <p className="text-lg text-white/75 leading-relaxed mb-10 max-w-xl">
+          <p className="text-base sm:text-lg text-white/75 leading-relaxed mb-6 sm:mb-10 max-w-xl">
             Avocate au Barreau de Dunkerque depuis 2020, Maître Montagne vous accueille et vous accompagne dans la défense de vos droits. Garde à vue, séparation, accident ou litige : elle est à vos côtés à chaque étape de la procédure.
           </p>
 
           {/* CTA */}
-          <div className="flex flex-col sm:flex-row gap-3 mb-12">
+          <div className="flex flex-col sm:flex-row gap-3 mb-6 sm:mb-12">
             <a
               href="tel:0744787718"
               className="btn-white text-base py-4 px-8"
@@ -65,7 +65,7 @@ export default function Hero() {
           </div>
 
           {/* Signaux de confiance */}
-          <div className="flex flex-wrap items-center gap-6 pt-8 border-t border-white/20">
+          <div className="hidden sm:flex flex-wrap items-center gap-6 pt-8 border-t border-white/20">
             <div className="flex items-center gap-2">
               <svg className="w-4 h-4 text-forest-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
