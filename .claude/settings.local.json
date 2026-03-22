@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.avocats-timmerman-guilluy.fr)",
+      "Read(//c/Users/33749/Downloads/**)",
+      "Bash(python -c \"import pdfplumber; pdf = pdfplumber.open\\(''''tt.pdf''''\\); [print\\(f''''--- PAGE {i+1} ---\\\\n'''', p.extract_text\\(\\)\\) for i, p in enumerate\\(pdf.pages[:10]\\)]\")",
+      "WebFetch(domain:www.avocat-henriot.com)",
+      "WebSearch",
+      "WebFetch(domain:web.archive.org)",
+      "WebFetch(domain:consultation.avocat.fr)",
+      "WebFetch(domain:www.pagesjaunes.fr)",
+      "WebFetch(domain:webcache.googleusercontent.com)",
+      "Bash(xargs sed:*)",
+      "Bash(findstr -i logo)",
+      "Bash(node -e \":*)",
+      "Bash(findstr /s /i /n \"explorer\\\\|associé\\\\|domaines associés\" \"C:\\\\Users\\\\33749\\\\Site Margot\\\\components\\\\DomainePage.tsx\")"
+    ]
+  }
+}
