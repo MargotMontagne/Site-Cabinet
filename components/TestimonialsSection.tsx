@@ -29,7 +29,7 @@ const testimonials = [
 
 function Stars({ count }: { count: number }) {
   return (
-    <div className="flex gap-0.5 mb-4" aria-label={`${count} étoiles sur 5`}>
+    <div className="flex gap-0.5 mb-4" role="img" aria-label={`${count} étoiles sur 5`}>
       {Array.from({ length: count }).map((_, i) => (
         <svg
           key={i}

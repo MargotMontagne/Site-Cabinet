@@ -140,10 +140,10 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-gray-500">
+          <p className="text-xs text-gray-400">
             © {currentYear} Cabinet Margot Montagne · Avocate au Barreau de Dunkerque. Tous droits réservés.
           </p>
-          <p className="text-xs text-gray-500">
+          <p className="text-xs text-gray-400">
             Membre du Barreau de Dunkerque · RPVA en cours
           </p>
         </div>
