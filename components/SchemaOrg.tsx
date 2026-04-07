@@ -18,7 +18,7 @@ export default async function SchemaOrg() {
           "Cabinet d'avocat à Dunkerque. Maître Margot Montagne défend vos droits en droit pénal, droit de la famille, droit routier, droit des mineurs, droit civil et préjudice corporel.",
         address: {
           "@type": "PostalAddress",
-          streetAddress: "6 Rue du Sud",
+          streetAddress: "25 Rue du Sud",
           addressLocality: "Dunkerque",
           postalCode: "59140",
           addressCountry: "FR",

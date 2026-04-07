@@ -115,7 +115,7 @@ export default async function DomainePage({
     ],
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "6 Rue du Sud",
+      "streetAddress": "25 Rue du Sud",
       "addressLocality": "Dunkerque",
       "postalCode": "59140",
       "addressRegion": "Nord",

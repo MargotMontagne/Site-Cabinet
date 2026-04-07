@@ -16,7 +16,7 @@ import CTASection from "@/components/CTASection";
 export const metadata: Metadata = {
   title: "Contact — Maître Margot Montagne, avocate à Dunkerque",
   description:
-    "Contactez Maître Margot Montagne, avocate à Dunkerque. Téléphone, email, formulaire de contact. Cabinet au 6 Rue du Sud, 59140 Dunkerque. Urgences : 07 44 78 77 18.",
+    "Contactez Maître Margot Montagne, avocate à Dunkerque. Téléphone, email, formulaire de contact. Cabinet au 25 Rue du Sud, 59140 Dunkerque. Urgences : 07 44 78 77 18.",
   alternates: {
     canonical: "https://avocat-montagne.fr/contact",
   },
@@ -125,10 +125,10 @@ export default function ContactPage() {
                 <div>
                   <p className="text-xs text-gray-400 font-medium uppercase tracking-wide mb-1">Adresse</p>
                   <address className="not-italic text-sm text-stone-950 leading-relaxed">
-                    6 Rue du Sud<br />59140 Dunkerque
+                    25 Rue du Sud<br />59140 Dunkerque
                   </address>
                   <a
-                    href="https://www.google.com/maps/dir/?api=1&destination=6+Rue+du+Sud,+59140+Dunkerque"
+                    href="https://www.google.com/maps/dir/?api=1&destination=25+Rue+du+Sud,+59140+Dunkerque"
                     target="_blank" rel="noopener noreferrer"
                     className="text-forest-600 text-xs mt-2 inline-flex items-center gap-1 hover:text-forest-700"
                   >
@@ -249,8 +249,8 @@ export default function ContactPage() {
 
       {/* Map */}
       <LazyMap
-        src="https://maps.google.com/maps?q=6+Rue+du+Sud,+59140+Dunkerque,+France&t=&z=17&ie=UTF8&iwloc=&output=embed"
-        title="Cabinet Margot Montagne — 6 Rue du Sud, 59140 Dunkerque"
+        src="https://maps.google.com/maps?q=25+Rue+du+Sud,+59140+Dunkerque,+France&t=&z=17&ie=UTF8&iwloc=&output=embed"
+        title="Cabinet Margot Montagne — 25 Rue du Sud, 59140 Dunkerque"
         className="h-96"
       />
     </>

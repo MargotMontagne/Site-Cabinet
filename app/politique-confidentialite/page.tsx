@@ -26,7 +26,7 @@ export default function PolitiqueConfidentialitePage() {
             <h2 className="font-serif text-xl text-stone-950 mb-3">Responsable du traitement</h2>
             <p>
               Maître Margot Montagne, avocate au Barreau de Dunkerque.<br />
-              6 Rue du Sud, 59140 Dunkerque<br />
+              25 Rue du Sud, 59140 Dunkerque<br />
               Email : margot.montagne.avocat@gmail.com
             </p>
           </section>

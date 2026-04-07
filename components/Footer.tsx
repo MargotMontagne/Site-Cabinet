@@ -108,7 +108,7 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                   <address className="not-italic text-sm text-gray-300">
-                    6 Rue du Sud<br />
+                    25 Rue du Sud<br />
                     59140 Dunkerque
                   </address>
                 </div>

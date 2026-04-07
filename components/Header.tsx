@@ -116,7 +116,7 @@ export default function Header() {
               </div>
               {/* Adresse */}
               <a
-                href="https://www.google.com/maps/dir/?api=1&destination=6+Rue+du+Sud,+59140+Dunkerque"
+                href="https://www.google.com/maps/dir/?api=1&destination=25+Rue+du+Sud,+59140+Dunkerque"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden lg:flex items-center gap-1.5 text-white/70 text-xs hover:text-white/90 transition-colors"
@@ -126,7 +126,7 @@ export default function Header() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                6 Rue du Sud, 59140 Dunkerque
+                25 Rue du Sud, 59140 Dunkerque
               </a>
               {/* Téléphone */}
               <a

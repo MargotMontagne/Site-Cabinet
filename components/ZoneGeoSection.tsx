@@ -39,7 +39,7 @@ export default function ZoneGeoSection() {
                   </svg>
                   <div>
                     <p className="text-sm font-medium text-stone-950">Cabinet principal</p>
-                    <p className="text-sm text-gray-400">6 Rue du Sud, 59140 Dunkerque</p>
+                    <p className="text-sm text-gray-400">25 Rue du Sud, 59140 Dunkerque</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -75,8 +75,8 @@ export default function ZoneGeoSection() {
               </div>
 
               <LazyMap
-                src="https://maps.google.com/maps?q=6+Rue+du+Sud,+59140+Dunkerque,+France&t=&z=17&ie=UTF8&iwloc=&output=embed"
-                title="Cabinet Margot Montagne — 6 Rue du Sud, 59140 Dunkerque"
+                src="https://maps.google.com/maps?q=25+Rue+du+Sud,+59140+Dunkerque,+France&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                title="Cabinet Margot Montagne — 25 Rue du Sud, 59140 Dunkerque"
                 className="aspect-video rounded-sm border border-gray-200"
               />
             </div>

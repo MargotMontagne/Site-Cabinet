@@ -27,7 +27,7 @@ export default function MentionsLegalesPage() {
             <p>
               <strong>Maître Margot Montagne</strong><br />
               Avocate au Barreau de Dunkerque<br />
-              6 Rue du Sud, 59140 Dunkerque<br />
+              25 Rue du Sud, 59140 Dunkerque<br />
               Téléphone : <a href="tel:0744787718" className="text-forest-600">07 44 78 77 18</a><br />
               Email : margot.montagne.avocat@gmail.com<br />
               N° RPVA : [à compléter]<br />
