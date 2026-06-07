@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import DomainePage from "@/components/DomainePage";
 
 export const metadata: Metadata = {
-  title: "Avocat permis de conduire Dunkerque | Droit routier | Maître Montagne",
+  title: "Avocat droit routier Dunkerque — Permis de conduire",
   description:
     "Avocate en droit routier à Dunkerque. Retrait de permis, alcoolémie, excès de vitesse, suspension administrative. Maître Margot Montagne défend votre droit à conduire. 07 44 78 77 18.",
   keywords: [
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     canonical: "https://avocat-montagne.fr/expertises/droit-routier",
   },
   openGraph: {
-    title: "Avocat permis de conduire Dunkerque | Droit routier | Maître Montagne",
+    title: "Avocat droit routier Dunkerque — Permis de conduire",
     description: "Avocate en droit routier à Dunkerque. Retrait de permis, alcoolémie, excès de vitesse, suspension. Maître Margot Montagne. ☎ 07 44 78 77 18.",
     url: "https://avocat-montagne.fr/expertises/droit-routier",
     type: "website",

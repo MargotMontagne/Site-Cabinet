@@ -6,7 +6,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import { glossaire } from "@/lib/glossaire-data";
 
 export const metadata: Metadata = {
-  title: "Ressources juridiques — Glossaire, guides & documents | Avocat Dunkerque",
+  title: "Ressources juridiques — Avocat Dunkerque",
   description:
     "Glossaire juridique, guides pratiques et documents utiles. Comprenez vos droits avant de consulter. Maître Margot Montagne, avocate à Dunkerque — 07 44 78 77 18.",
   alternates: {

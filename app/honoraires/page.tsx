@@ -5,7 +5,7 @@ import CTASection from "@/components/CTASection";
 import ScrollReveal from "@/components/ScrollReveal";
 
 export const metadata: Metadata = {
-  title: "Honoraires — Maître Margot Montagne, avocate à Dunkerque",
+  title: "Honoraires — Avocat à Dunkerque",
   description:
     "Honoraires de Maître Margot Montagne, avocate à Dunkerque. Taux horaire, forfait, convention d'honoraires, aide juridictionnelle, protection juridique. Appelez le 07 44 78 77 18.",
   alternates: {

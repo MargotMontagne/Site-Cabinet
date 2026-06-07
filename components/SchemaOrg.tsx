@@ -7,7 +7,7 @@ export default async function SchemaOrg() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "LegalService",
+        "@type": ["LegalService", "Attorney"],
         "@id": "https://avocat-montagne.fr/#organization",
         name: "Cabinet Margot Montagne",
         alternateName: "Maître Margot Montagne",
@@ -37,6 +37,12 @@ export default async function SchemaOrg() {
           },
         ],
         priceRange: "€€",
+        sameAs: [
+          // Remplacer par l'URL exacte de la fiche Google Maps/GBP
+          // Ex : "https://maps.google.com/?cid=VOTRE_CID"
+          // Puis ajouter les URLs des annuaires une fois les profils créés :
+          // Justifit, 1001avocats, avocat.fr, pages-jaunes.fr
+        ],
         areaServed: [
           { "@type": "City", name: "Dunkerque" },
           { "@type": "City", name: "Grande-Synthe" },
@@ -78,13 +84,35 @@ export default async function SchemaOrg() {
           ],
         },
         founder: {
-          "@type": "Person",
-          name: "Margot Montagne",
-          jobTitle: "Avocate au Barreau de Dunkerque",
-          alumniOf: {
-            "@type": "CollegeOrUniversity",
-            name: "Université de Lille II",
-          },
+          "@id": "https://avocat-montagne.fr/#person",
+        },
+      },
+      {
+        "@type": "Person",
+        "@id": "https://avocat-montagne.fr/#person",
+        name: "Margot Montagne",
+        givenName: "Margot",
+        familyName: "Montagne",
+        jobTitle: "Avocate au Barreau de Dunkerque",
+        honorificPrefix: "Maître",
+        worksFor: {
+          "@id": "https://avocat-montagne.fr/#organization",
+        },
+        alumniOf: {
+          "@type": "CollegeOrUniversity",
+          name: "Université de Lille II",
+        },
+        knowsAbout: [
+          "Droit pénal",
+          "Droit de la famille",
+          "Droit routier",
+          "Droit des mineurs",
+          "Droit civil",
+          "Préjudice corporel",
+        ],
+        memberOf: {
+          "@type": "Organization",
+          name: "Barreau de Dunkerque",
         },
       },
       {

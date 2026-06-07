@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import DomainePage from "@/components/DomainePage";
 
 export const metadata: Metadata = {
-  title: "Avocat divorce Dunkerque | Droit de la famille | Maître Montagne",
+  title: "Avocat divorce Dunkerque — Droit de la famille",
   description:
     "Avocate en droit de la famille à Dunkerque. Divorce, garde des enfants, pension alimentaire, séparation, violence conjugale. Maître Margot Montagne. 07 44 78 77 18.",
   keywords: [
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     canonical: "https://avocat-montagne.fr/expertises/droit-de-la-famille",
   },
   openGraph: {
-    title: "Avocat divorce Dunkerque | Droit de la famille | Maître Montagne",
+    title: "Avocat divorce Dunkerque — Droit de la famille",
     description: "Avocate en droit de la famille à Dunkerque. Divorce, garde des enfants, pension alimentaire, violence conjugale. Maître Margot Montagne. ☎ 07 44 78 77 18.",
     url: "https://avocat-montagne.fr/expertises/droit-de-la-famille",
     type: "website",

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import DomainePage from "@/components/DomainePage";
 
 export const metadata: Metadata = {
-  title: "Avocat accident Dunkerque | Indemnisation préjudice corporel | Maître Montagne",
+  title: "Avocat préjudice corporel Dunkerque — Indemnisation",
   description:
     "Avocate en réparation du préjudice corporel à Dunkerque. Accident de la route, accident du travail, agression, erreur médicale. Face aux assureurs. Maître Margot Montagne. 07 44 78 77 18.",
   keywords: [
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     canonical: "https://avocat-montagne.fr/expertises/prejudice-corporel",
   },
   openGraph: {
-    title: "Avocat accident Dunkerque | Indemnisation préjudice corporel | Maître Montagne",
+    title: "Avocat préjudice corporel Dunkerque — Indemnisation",
     description: "Avocate en réparation du préjudice corporel à Dunkerque. Accident, agression, erreur médicale. Face aux assureurs. Maître Margot Montagne. ☎ 07 44 78 77 18.",
     url: "https://avocat-montagne.fr/expertises/prejudice-corporel",
     type: "website",

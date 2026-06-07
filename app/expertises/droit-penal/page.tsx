@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import DomainePage from "@/components/DomainePage";
 
 export const metadata: Metadata = {
-  title: "Avocat pénal Dunkerque | Garde à vue & défense | Maître Montagne",
+  title: "Avocat pénal Dunkerque — Garde à vue & défense",
   description:
     "Avocate pénaliste à Dunkerque. Garde à vue, audition libre, tribunal correctionnel, cour d'assises. Intervention en urgence. Maître Margot Montagne. 07 44 78 77 18.",
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     canonical: "https://avocat-montagne.fr/expertises/droit-penal",
   },
   openGraph: {
-    title: "Avocat pénal Dunkerque | Garde à vue & défense | Maître Montagne",
+    title: "Avocat pénal Dunkerque — Garde à vue & défense",
     description: "Avocate pénaliste à Dunkerque. Garde à vue, tribunal correctionnel, défense des victimes. Intervention en urgence. ☎ 07 44 78 77 18.",
     url: "https://avocat-montagne.fr/expertises/droit-penal",
     type: "website",

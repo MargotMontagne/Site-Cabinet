@@ -102,35 +102,6 @@ export default async function DomainePage({
     ],
   };
 
-  const legalServiceSchema = {
-    "@context": "https://schema.org",
-    "@type": "LegalService",
-    "name": `${breadcrumbLabel} - Cabinet Montagne Dunkerque`,
-    "description": subtitle,
-    "url": canonicalUrl,
-    "telephone": "+33744787718",
-    "areaServed": [
-      { "@type": "City", "name": "Dunkerque" },
-      { "@type": "AdministrativeArea", "name": "Nord" },
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "25 Rue du Sud",
-      "addressLocality": "Dunkerque",
-      "postalCode": "59140",
-      "addressRegion": "Nord",
-      "addressCountry": "FR",
-    },
-    "provider": {
-      "@type": "Attorney",
-      "name": "Maître Margot Montagne",
-      "telephone": "+33744787718",
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Barreau de Dunkerque",
-      },
-    },
-  };
 
   const calloutSection = callout ? (
     <section className="bg-forest-600 py-14">
@@ -159,7 +130,6 @@ export default async function DomainePage({
         <script nonce={nonce} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       )}
       <script nonce={nonce} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
-      <script nonce={nonce} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(legalServiceSchema) }} />
       {/* Hero avec image de fond */}
       <section className="relative bg-stone-950 pt-36 lg:pt-40 pb-20 overflow-hidden">
         {image && (

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import DomainePage from "@/components/DomainePage";
 
 export const metadata: Metadata = {
-  title: "Avocat droit des mineurs Dunkerque | Protection enfance | Maître Montagne",
+  title: "Avocat droit des mineurs Dunkerque — Protection enfance",
   description:
     "Avocate en droit des mineurs à Dunkerque. Assistance éducative, mineur mis en cause, opposition au placement, protection de l'enfance. Maître Margot Montagne. 07 44 78 77 18.",
   keywords: [
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     canonical: "https://avocat-montagne.fr/expertises/droit-des-mineurs",
   },
   openGraph: {
-    title: "Avocat droit des mineurs Dunkerque | Protection enfance | Maître Montagne",
+    title: "Avocat droit des mineurs Dunkerque — Protection enfance",
     description: "Avocate en droit des mineurs à Dunkerque. Assistance éducative, mineur mis en cause, protection de l'enfance. Maître Margot Montagne. ☎ 07 44 78 77 18.",
     url: "https://avocat-montagne.fr/expertises/droit-des-mineurs",
     type: "website",

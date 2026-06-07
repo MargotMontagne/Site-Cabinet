@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://avocat-montagne.fr"),
   title: {
     default: "Maître Margot Montagne — Avocate à Dunkerque",
-    template: "%s | Maître Margot Montagne — Avocate à Dunkerque",
+    template: "%s | Maître Montagne",
   },
   description:
     "Maître Margot Montagne, avocate au Barreau de Dunkerque. Droit pénal, droit de la famille, droit routier, préjudice corporel. Disponible rapidement, intervention en urgence. Appelez le 07 44 78 77 18.",
