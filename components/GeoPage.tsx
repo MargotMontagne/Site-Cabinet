@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import CTASection from "@/components/CTASection";
 import ScrollReveal from "@/components/ScrollReveal";
@@ -67,8 +68,19 @@ export default function GeoPage({
       />
 
       {/* Hero */}
-      <section className="bg-stone-950 pt-36 lg:pt-40 pb-20">
-        <div className="section-container">
+      <section className="relative bg-stone-950 pt-36 lg:pt-40 pb-20 overflow-hidden">
+        <div className="absolute inset-0" aria-hidden>
+          <Image
+            src="/Droit-penal.webp"
+            alt=""
+            fill
+            priority
+            className="object-cover"
+            style={{ objectPosition: "center 65%" }}
+          />
+          <div className="absolute inset-0 bg-stone-950/70" />
+        </div>
+        <div className="section-container relative">
           <nav className="flex items-center gap-2 text-xs text-white/50 mb-10" aria-label="Fil d'Ariane">
             <Link href="/" className="hover:text-white/80 transition-colors">Accueil</Link>
             <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">

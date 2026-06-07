@@ -1,17 +1,19 @@
+import Link from "next/link";
 import LazyMap from "./LazyMap";
 import ScrollReveal from "./ScrollReveal";
 
-const villes = [
-  "Dunkerque",
-  "Calais",
-  "Lille",
-  "Saint-Omer",
-  "Boulogne-sur-Mer",
-  "Valenciennes",
-  "Douai",
-  "Arras",
-  "Lens",
-  "Hazebrouck",
+const villes: { label: string; href?: string }[] = [
+  { label: "Dunkerque" },
+  { label: "Grande-Synthe", href: "/avocat-grande-synthe" },
+  { label: "Calais", href: "/avocat-calais" },
+  { label: "Lille", href: "/avocat-lille" },
+  { label: "Saint-Omer", href: "/avocat-saint-omer" },
+  { label: "Boulogne-sur-Mer", href: "/avocat-boulogne-sur-mer" },
+  { label: "Valenciennes", href: "/avocat-valenciennes" },
+  { label: "Douai", href: "/avocat-douai" },
+  { label: "Arras", href: "/avocat-arras" },
+  { label: "Lens", href: "/avocat-lens" },
+  { label: "Hazebrouck", href: "/avocat-hazebrouck" },
 ];
 
 export default function ZoneGeoSection() {
@@ -61,17 +63,32 @@ export default function ZoneGeoSection() {
                 Principales villes du ressort
               </p>
               <div className="flex flex-wrap gap-2 mb-8">
-                {villes.map((ville) => (
-                  <span
-                    key={ville}
-                    className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-stone-50 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-forest-50 hover:border-forest-300 hover:text-forest-700 transition-colors"
-                  >
-                    <svg className="w-3 h-3 text-forest-500 flex-shrink-0" fill="currentColor" viewBox="0 0 8 8" aria-hidden="true">
-                      <circle cx="4" cy="4" r="3" />
-                    </svg>
-                    {ville}
-                  </span>
-                ))}
+                {villes.map((ville) => {
+                  const inner = (
+                    <>
+                      <svg className="w-3 h-3 text-forest-500 flex-shrink-0" fill="currentColor" viewBox="0 0 8 8" aria-hidden="true">
+                        <circle cx="4" cy="4" r="3" />
+                      </svg>
+                      {ville.label}
+                    </>
+                  );
+                  return ville.href ? (
+                    <Link
+                      key={ville.label}
+                      href={ville.href}
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-stone-50 border border-gray-200 rounded-full text-sm text-gray-600 hover:bg-forest-50 hover:border-forest-300 hover:text-forest-700 transition-colors"
+                    >
+                      {inner}
+                    </Link>
+                  ) : (
+                    <span
+                      key={ville.label}
+                      className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-stone-50 border border-gray-200 rounded-full text-sm text-gray-600"
+                    >
+                      {inner}
+                    </span>
+                  );
+                })}
               </div>
 
               <LazyMap
