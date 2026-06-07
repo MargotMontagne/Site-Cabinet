@@ -139,24 +139,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Zones */}
-        <div className="mt-12 pt-8 border-t border-white/10">
-          <p className="text-xs font-semibold tracking-widest uppercase text-gray-400 mb-4">
-            Zones d&apos;intervention
-          </p>
-          <div className="flex flex-wrap gap-x-6 gap-y-2">
-            {[
-              { href: "/avocat-grande-synthe", label: "Grande-Synthe" },
-              { href: "/avocat-calais", label: "Calais" },
-            ].map((z) => (
-              <Link key={z.href} href={z.href} className="text-xs text-gray-400 hover:text-white transition-colors">
-                {z.label}
-              </Link>
-            ))}
-          </div>
-        </div>
-
-        <div className="mt-8 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-gray-400">
             © {currentYear} Cabinet Margot Montagne · Avocate au Barreau de Dunkerque. Tous droits réservés.
           </p>
