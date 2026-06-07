@@ -99,7 +99,7 @@ export default function TestimonialsSection() {
               <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
             </svg>
             <p className="text-xs text-gray-400">
-              Avis vérifiés Google · <a href="https://www.google.com/maps/place/Montagne+Margot/@51.0324916,2.3750472,17z/data=!4m6!3m5!1s0x47dc8d2a2b76e43b:0x610d35d7fdad033d!8m2!3d51.0324883!4d2.3776221!16s%2Fg%2F11l6186rfl" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-gray-600 transition-colors">Voir tous les avis</a>
+              Avis vérifiés Google · <a href="https://www.google.com/maps/place/Montagne+Margot/@51.0324916,2.3750472,17z/data=!4m8!3m7!1s0x47dc8d2a2b76e43b:0x610d35d7fdad033d!8m2!3d51.0324883!4d2.3776221!9m1!1b1!16s%2Fg%2F11l6186rfl" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-gray-600 transition-colors">Voir tous les avis</a>
             </p>
           </div>
         </ScrollReveal>
