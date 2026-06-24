@@ -32,7 +32,7 @@ const faqHonoraires = [
   {
     question: "Puis-je bénéficier de l'aide juridictionnelle ?",
     answer:
-      "Si vos ressources sont inférieures à un plafond fixé annuellement, l'État prend en charge tout ou partie des honoraires d'avocat. Le cabinet accepte les bénéficiaires de l'aide juridictionnelle.",
+      "Si vos ressources sont inférieures à un plafond fixé annuellement, l'État prend en charge tout ou partie des honoraires d'avocat. Le cabinet accepte les bénéficiaires de l'aide juridictionnelle. Une simulation de l'éligibilité à l'aide juridictionnelle peut être réalisée sur le site suivant : www.aidejuridictionnelle.justice.fr/simulateur. Il conviendra d'informer Mme MONTAGNE de votre éligibilité et du taux indiqué.",
   },
   {
     question: "Ma protection juridique peut-elle couvrir mes honoraires ?",
@@ -202,7 +202,7 @@ export default function HonorairesPage() {
               <p className="text-gray-500 text-sm leading-relaxed mb-5">
                 Lorsque les ressources du demandeur sont inférieures au plafond légal, l&apos;État prend en charge tout ou partie des honoraires d&apos;avocat. L&apos;aide est totale ou partielle selon le niveau de revenus.
               </p>
-              <ul className="space-y-2">
+              <ul className="space-y-2 mb-6">
                 {[
                   "Acceptée au cabinet",
                   "Applicable à la plupart des procédures",
@@ -214,6 +214,18 @@ export default function HonorairesPage() {
                   </li>
                 ))}
               </ul>
+              <a
+                href="https://www.aidejuridictionnelle.justice.fr/simulateur"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm font-medium text-forest-700 bg-forest-50 border border-forest-200 rounded-xl px-4 py-2.5 hover:bg-forest-100 transition-colors"
+              >
+                Simuler mon éligibilité
+                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2} aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+              <p className="text-xs text-gray-400 mt-2">Il conviendra d&apos;informer Mme Montagne de votre éligibilité et du taux indiqué.</p>
             </div>
             </ScrollReveal>
             {/* Protection juridique */}
