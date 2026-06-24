@@ -31,8 +31,23 @@ const faqHonoraires = [
   },
   {
     question: "Puis-je bénéficier de l'aide juridictionnelle ?",
-    answer:
-      "Si vos ressources sont inférieures à un plafond fixé annuellement, l'État prend en charge tout ou partie des honoraires d'avocat. Le cabinet accepte les bénéficiaires de l'aide juridictionnelle. Une simulation de l'éligibilité à l'aide juridictionnelle peut être réalisée sur le site suivant : www.aidejuridictionnelle.justice.fr/simulateur. Il conviendra d'informer Mme MONTAGNE de votre éligibilité et du taux indiqué.",
+    answer: (
+      <>
+        Si vos ressources sont inférieures à un plafond fixé annuellement, l&apos;État prend en charge tout ou partie des honoraires d&apos;avocat. Le cabinet accepte les bénéficiaires de l&apos;aide juridictionnelle. Une simulation de l&apos;éligibilité à l&apos;aide juridictionnelle peut être réalisée sur le site suivant :{" "}
+        <a
+          href="https://www.aidejuridictionnelle.justice.fr/simulateur"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-forest-700 font-medium underline underline-offset-2 hover:text-forest-800 transition-colors"
+        >
+          www.aidejuridictionnelle.justice.fr/simulateur
+        </a>
+        .
+        <br />
+        <br />
+        Il conviendra d&apos;informer Mme Montagne de votre éligibilité et du taux indiqué.
+      </>
+    ),
   },
   {
     question: "Ma protection juridique peut-elle couvrir mes honoraires ?",
