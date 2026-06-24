@@ -291,7 +291,7 @@ export default function HonorairesPage() {
           <div className="max-w-3xl mx-auto">
             <h2 className="font-serif text-xl text-stone-800 mb-3">Contestation des honoraires</h2>
             <p className="text-sm text-gray-600 leading-relaxed">
-              En cas de désaccord sur la facturation, le client peut saisir le Bâtonnier de l&apos;Ordre des avocats de Dunkerque, qui met en place une médiation amiable, ou le médiateur de la consommation par courrier recommandé.
+              En cas de contestation relative au contenu, à l&apos;exécution, à l&apos;interprétation et à la réalisation de la convention d&apos;honoraires, le Bâtonnier de l&apos;Ordre des Avocats de Dunkerque pourra être saisi dans les formes prévues pour la contestation des honoraires par le décret n° 91-1197 du 27 novembre 1991 régissant la profession d&apos;Avocat.
             </p>
           </div>
         </div>
