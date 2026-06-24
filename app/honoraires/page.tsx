@@ -45,7 +45,7 @@ const faqHonoraires = [
         .
         <br />
         <br />
-        Il conviendra d&apos;informer Mme Montagne de votre éligibilité et du taux indiqué.
+        Il conviendra d&apos;informer Maître Montagne de votre éligibilité et du taux indiqué.
       </>
     ),
   },
@@ -244,7 +244,7 @@ export default function HonorairesPage() {
                   <span className="sr-only">(s&apos;ouvre dans un nouvel onglet)</span>
                 </a>
                 <p className="text-xs text-gray-400 leading-relaxed mt-3 text-center">
-                  Il conviendra d&apos;informer Mme Montagne de votre éligibilité et du taux indiqué.
+                  Il conviendra d&apos;informer Maître Montagne de votre éligibilité et du taux indiqué.
                 </p>
               </div>
             </div>
