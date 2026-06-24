@@ -20,7 +20,7 @@ export default function DouaiPage() {
       intro={[
         "Douai est le siège de la Cour d'appel de Douai, juridiction d'appel pour l'ensemble des départements du Nord (59) et du Pas-de-Calais (62). Maître Margot Montagne, inscrite au Barreau de Dunkerque depuis 2020, intervient devant les juridictions de Douai et de l'arrondissement.",
         "Le cabinet assure la défense en droit pénal (garde à vue, tribunal correctionnel, chambre correctionnelle d'appel), en droit de la famille, en préjudice corporel et en droit civil, y compris devant la Cour d'appel de Douai pour les procédures en phase d'appel.",
-        "Cabinet situé à Dunkerque. Disponible pour toute urgence pénale — garde à vue notamment. Premier contact téléphonique gratuit.",
+        "Cabinet situé à Dunkerque. Disponible pour toute urgence pénale — garde à vue notamment. Consultation gratuite si ouverture de dossier.",
       ]}
     />
   );

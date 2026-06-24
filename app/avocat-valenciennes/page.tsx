@@ -20,7 +20,7 @@ export default function ValenciennesPage() {
       intro={[
         "Valenciennes, ville du département du Nord aux confins de la Belgique, est couverte par le ressort de la Cour d'appel de Douai. Maître Margot Montagne, inscrite au Barreau de Dunkerque depuis 2020, intervient pour les résidents de Valenciennes et de l'arrondissement.",
         "Le cabinet traite les dossiers pénaux (garde à vue, tribunal correctionnel, représentation des victimes), les affaires familiales (divorce, garde des enfants, pension alimentaire), les litiges civils et les demandes d'indemnisation en préjudice corporel.",
-        "Cabinet situé à Dunkerque, accessible depuis Valenciennes. Pour les gardes à vue et urgences pénales, une intervention immédiate est assurée. Premier contact téléphonique gratuit.",
+        "Cabinet situé à Dunkerque, accessible depuis Valenciennes. Pour les gardes à vue et urgences pénales, une intervention immédiate est assurée. Consultation gratuite si ouverture de dossier.",
       ]}
     />
   );

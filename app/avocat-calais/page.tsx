@@ -20,7 +20,7 @@ export default function CalaisPage() {
       intro={[
         "Calais est couverte par le ressort de la Cour d'appel de Douai, qui regroupe les départements du Nord (59) et du Pas-de-Calais (62). Maître Margot Montagne, inscrite au Barreau de Dunkerque depuis 2020, intervient à Calais et dans l'ensemble de l'arrondissement pour défendre ses clients devant les juridictions compétentes.",
         "Le cabinet prend en charge les dossiers pénaux (garde à vue, défense au tribunal correctionnel, représentation des victimes), les affaires familiales (divorce, autorité parentale, pension alimentaire), les demandes d'indemnisation en préjudice corporel, ainsi que les litiges en droit civil et les procédures en droit des mineurs.",
-        "Les consultations se tiennent au cabinet à Dunkerque, à 45 minutes de Calais. Pour toute urgence pénale — garde à vue notamment — le cabinet est joignable immédiatement. Premier contact téléphonique gratuit.",
+        "Les consultations se tiennent au cabinet à Dunkerque, à 45 minutes de Calais. Pour toute urgence pénale — garde à vue notamment — le cabinet est joignable immédiatement. Consultation gratuite si ouverture de dossier.",
       ]}
     />
   );

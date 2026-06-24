@@ -135,7 +135,7 @@ export default function GeoPage({
             <div className="bg-forest-50 border border-forest-100 rounded-2xl p-6 lg:sticky lg:top-28 h-fit">
               <h3 className="font-serif text-lg text-stone-950 mb-4">Contacter le cabinet</h3>
               <p className="text-sm text-gray-500 mb-5">
-                Premier contact téléphonique gratuit. Réponse sous 24h.
+                Consultation gratuite si ouverture de dossier. Réponse sous 24h.
               </p>
               <div className="space-y-3">
                 <a href="tel:0744787718" className="btn-primary w-full justify-center">

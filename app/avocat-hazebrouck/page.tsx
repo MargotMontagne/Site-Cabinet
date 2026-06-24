@@ -20,7 +20,7 @@ export default function HazebrouckPage() {
       intro={[
         "Hazebrouck, ville des Flandres intérieures dans le département du Nord, relève du ressort de la Cour d'appel de Douai. Maître Margot Montagne, inscrite au Barreau de Dunkerque depuis 2020, intervient pour les résidents d'Hazebrouck et du canton à moins d'une heure de son cabinet.",
         "Droit pénal (garde à vue, tribunal correctionnel), droit de la famille (divorce, garde des enfants), droit routier, préjudice corporel, droit civil et droit des mineurs : le cabinet assure la défense de ses clients dans l'ensemble de ces domaines.",
-        "Cabinet basé à Dunkerque, à 45 minutes d'Hazebrouck. Disponible immédiatement pour les gardes à vue. Premier contact téléphonique gratuit.",
+        "Cabinet basé à Dunkerque, à 45 minutes d'Hazebrouck. Disponible immédiatement pour les gardes à vue. Consultation gratuite si ouverture de dossier.",
       ]}
     />
   );

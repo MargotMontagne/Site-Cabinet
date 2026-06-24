@@ -20,7 +20,7 @@ export default function LensPage() {
       intro={[
         "Lens, ville du bassin minier du Pas-de-Calais, est couverte par le ressort de la Cour d'appel de Douai. Maître Margot Montagne, inscrite au Barreau de Dunkerque depuis 2020, intervient pour les résidents de Lens et de l'arrondissement de Lens-Liévin.",
         "Le cabinet traite les dossiers pénaux (garde à vue, défense correctionnelle, représentation des victimes), les affaires de droit de la famille, les litiges en droit civil et les demandes d'indemnisation en préjudice corporel — notamment pour les accidents du travail.",
-        "Cabinet situé à Dunkerque, accessible depuis Lens. Disponible pour toute garde à vue ou urgence pénale. Premier contact téléphonique gratuit.",
+        "Cabinet situé à Dunkerque, accessible depuis Lens. Disponible pour toute garde à vue ou urgence pénale. Consultation gratuite si ouverture de dossier.",
       ]}
     />
   );

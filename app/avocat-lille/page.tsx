@@ -20,7 +20,7 @@ export default function LillePage() {
       intro={[
         "Lille, métropole régionale et chef-lieu du Nord, est couverte par le ressort de la Cour d'appel de Douai. Maître Margot Montagne, inscrite au Barreau de Dunkerque depuis 2020, intervient pour les justiciables de la métropole lilloise devant les juridictions compétentes.",
         "Le cabinet prend en charge les dossiers pénaux (garde à vue, tribunal correctionnel, défense des victimes), les affaires de droit de la famille (divorce, garde des enfants, pension alimentaire), les litiges en droit civil, le droit des mineurs et les demandes d'indemnisation en préjudice corporel.",
-        "Les consultations ont lieu au cabinet à Dunkerque, à environ 1h15 de Lille. Pour toute urgence pénale — garde à vue notamment — le cabinet est joignable immédiatement. Premier contact téléphonique gratuit.",
+        "Les consultations ont lieu au cabinet à Dunkerque, à environ 1h15 de Lille. Pour toute urgence pénale — garde à vue notamment — le cabinet est joignable immédiatement. Consultation gratuite si ouverture de dossier.",
       ]}
     />
   );

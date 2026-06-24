@@ -20,7 +20,7 @@ export default function GrandeSynthePage() {
       intro={[
         "Grande-Synthe fait partie de la Communauté Urbaine de Dunkerque et relève du Tribunal Judiciaire de Dunkerque. Maître Margot Montagne, inscrite au Barreau de Dunkerque depuis 2020, intervient pour les résidents de Grande-Synthe à quelques minutes seulement de son cabinet.",
         "Les dossiers traités concernent fréquemment le droit pénal — garde à vue, comparution immédiate, tribunal correctionnel — ainsi que le droit de la famille (divorce, garde des enfants, pension alimentaire), le droit routier et le préjudice corporel, notamment pour les accidents liés à l'activité industrielle et portuaire du bassin dunkerquois.",
-        "Le cabinet reçoit sur rendez-vous au 25 Rue du Sud à Dunkerque. En cas d'urgence — garde à vue en particulier — une intervention immédiate est possible. Premier contact téléphonique gratuit.",
+        "Le cabinet reçoit sur rendez-vous au 25 Rue du Sud à Dunkerque. En cas d'urgence — garde à vue en particulier — une intervention immédiate est possible. Consultation gratuite si ouverture de dossier.",
       ]}
     />
   );

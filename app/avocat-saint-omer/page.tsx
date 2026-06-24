@@ -20,7 +20,7 @@ export default function SaintOmerPage() {
       intro={[
         "Saint-Omer, sous-préfecture du Pas-de-Calais à 50 kilomètres de Dunkerque, est couverte par le ressort de la Cour d'appel de Douai. Maître Margot Montagne, inscrite au Barreau de Dunkerque depuis 2020, intervient dans l'arrondissement pour assurer la défense de ses clients devant les juridictions locales.",
         "Droit pénal, droit de la famille, droit routier, préjudice corporel, droit des mineurs et droit civil : le cabinet traite l'ensemble des contentieux courants de l'arrondissement de Saint-Omer, pour les particuliers et les familles.",
-        "Cabinet situé à Dunkerque, à 50 minutes de Saint-Omer. Disponible immédiatement pour les gardes à vue et urgences pénales. Premier contact téléphonique gratuit.",
+        "Cabinet situé à Dunkerque, à 50 minutes de Saint-Omer. Disponible immédiatement pour les gardes à vue et urgences pénales. Consultation gratuite si ouverture de dossier.",
       ]}
     />
   );

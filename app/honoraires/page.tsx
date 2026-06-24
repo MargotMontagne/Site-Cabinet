@@ -135,16 +135,16 @@ export default function HonorairesPage() {
             <div className="space-y-4">
               {[
                 {
-                  title: "Honoraires au temps passé",
-                  description:
-                    "Un taux horaire est défini à l'avance. Les honoraires correspondent au temps effectivement consacré au dossier : consultations, rédaction d'actes, audiences, recherches. Ce mode s'applique aux affaires dont la durée est difficile à anticiper.",
-                  tag: "Le plus courant",
-                },
-                {
                   title: "Honoraires forfaitaires",
                   description:
                     "Pour certaines procédures standardisées (divorce par consentement mutuel, injonction de payer, etc.), un forfait global peut être proposé. Le coût est arrêté dès le début de la mission.",
-                  tag: "Procédures définies",
+                  tag: "Le plus courant",
+                },
+                {
+                  title: "Honoraires au temps passé",
+                  description:
+                    "Un taux horaire est défini à l'avance. Les honoraires correspondent au temps effectivement consacré au dossier : consultations, rédaction d'actes, audiences, recherches. Ce mode s'applique aux affaires dont la durée est difficile à anticiper.",
+                  tag: "Dossiers complexes",
                 },
                 {
                   title: "Honoraires au résultat",
