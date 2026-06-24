@@ -3,7 +3,7 @@ import ScrollReveal from "./ScrollReveal";
 
 const credentials = [
   "Master II Droit privé, Université de Lille",
-  "CAPA, École du Barreau de Lille",
+  "CAPA - IXAD, Formation Professionnelle des Avocats du Nord-Ouest",
   "Barreau de Dunkerque depuis 2020",
   "Fondatrice du Cabinet Montagne",
 ];
