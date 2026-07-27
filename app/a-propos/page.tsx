@@ -4,9 +4,9 @@ import Link from "next/link";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "À propos — Maître Margot Montagne, avocate à Dunkerque",
+  title: "À propos - Maître Margot Montagne, avocate à Dunkerque",
   description:
-    "Parcours et engagement de Maître Margot Montagne, avocate au Barreau de Dunkerque depuis 2020. Master II droit privé — Université Lille II. Cabinet dédié aux particuliers.",
+    "Parcours et engagement de Maître Margot Montagne, avocate au Barreau de Dunkerque depuis 2020. Master II droit privé - Université Lille II. Cabinet dédié aux particuliers.",
   alternates: {
     canonical: "https://avocat-montagne.fr/a-propos",
   },
@@ -33,7 +33,7 @@ const timeline = [
   },
   {
     year: "2017–2020",
-    title: "Formation et collaboration — Sakya Avocats",
+    title: "Formation et collaboration - Sakya Avocats",
     subtitle: "Cabinet Sakya Avocats",
     description: "Collaboration au sein du cabinet Sakya Avocats. Acquisition d'une expérience terrain en droit pénal, droit de la famille et contentieux civil. Développement d'une pratique rigoureuse et d'une connaissance fine des juridictions.",
   },
@@ -54,7 +54,7 @@ const timeline = [
 const valeurs = [
   {
     title: "Écoute",
-    description: "Chaque client mérite d'être entendu. Maître Montagne consacre le temps nécessaire à comprendre votre situation dans tous ses aspects — juridiques, humains et personnels.",
+    description: "Chaque client mérite d'être entendu. Maître Montagne consacre le temps nécessaire à comprendre votre situation dans tous ses aspects - juridiques, humains et personnels.",
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
@@ -177,12 +177,12 @@ export default function AProposPage() {
           <div className="max-w-3xl mx-auto text-center">
             <span className="label-tag">Mot du cabinet</span>
             <blockquote className="font-serif text-2xl sm:text-3xl text-stone-950 leading-relaxed mb-8">
-              &ldquo;J&apos;ai choisi d&apos;exercer le droit parce que je crois profondément que chaque personne mérite d&apos;être entendue, comprise et défendue. Ma mission n&apos;est pas seulement juridique — c&apos;est aussi humaine.&rdquo;
+              &ldquo;J&apos;ai choisi d&apos;exercer le droit parce que je crois profondément que chaque personne mérite d&apos;être entendue, comprise et défendue. Ma mission n&apos;est pas seulement juridique - c&apos;est aussi humaine.&rdquo;
             </blockquote>
             <div className="flex items-center justify-center gap-3">
               <div className="w-12 h-0.5 bg-forest-300" />
               <cite className="not-italic text-sm font-medium text-gray-400 tracking-wide">
-                Maître Margot Montagne — Avocate au Barreau de Dunkerque
+                Maître Margot Montagne - Avocate au Barreau de Dunkerque
               </cite>
               <div className="w-12 h-0.5 bg-forest-300" />
             </div>

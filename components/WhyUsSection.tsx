@@ -73,7 +73,7 @@ export default function WhyUsSection() {
                 tabIndex={0}
                 className="group relative overflow-hidden rounded-2xl p-8 h-full flex flex-col cursor-default transition-all duration-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-forest-600 focus-visible:ring-offset-2 border border-stone-200 bg-white shadow-md hover:bg-forest-600 hover:border-transparent hover:shadow-xl hover:shadow-forest-900/20 focus-within:bg-forest-600 focus-within:border-transparent focus-within:shadow-xl focus-within:shadow-forest-900/20"
               >
-                {/* Numéro décoratif — top right, rogné par overflow-hidden */}
+                {/* Numéro décoratif - top right, rogné par overflow-hidden */}
                 <span className="absolute top-4 right-4 font-serif text-[5rem] leading-none select-none pointer-events-none transition-colors duration-500 text-stone-200/80 group-hover:text-white/10 group-focus-within:text-white/10">
                   {reason.number}
                 </span>

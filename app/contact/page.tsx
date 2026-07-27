@@ -14,7 +14,7 @@ import ScrollReveal from "@/components/ScrollReveal";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
-  title: "Contact — Cabinet Montagne, Dunkerque",
+  title: "Contact - Cabinet Montagne, Dunkerque",
   description:
     "Contactez Maître Margot Montagne, avocate à Dunkerque. Téléphone, email, formulaire de contact. Cabinet au 25 Rue du Sud, 59140 Dunkerque. Urgences : 07 44 78 77 18.",
   alternates: {
@@ -250,7 +250,7 @@ export default function ContactPage() {
       {/* Map */}
       <LazyMap
         src="https://maps.google.com/maps?q=25+Rue+du+Sud,+59140+Dunkerque,+France&t=&z=17&ie=UTF8&iwloc=&output=embed"
-        title="Cabinet Margot Montagne — 25 Rue du Sud, 59140 Dunkerque"
+        title="Cabinet Margot Montagne - 25 Rue du Sud, 59140 Dunkerque"
         className="h-96"
       />
     </>

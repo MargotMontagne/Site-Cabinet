@@ -7,7 +7,7 @@ export default async function GTM() {
 
   return (
     <>
-      {/* GTM inline init — nonce requis pour la CSP */}
+      {/* GTM inline init - nonce requis pour la CSP */}
       <script
         nonce={nonce}
         dangerouslySetInnerHTML={{

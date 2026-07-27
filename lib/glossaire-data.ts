@@ -179,7 +179,7 @@ export const glossaire: GlossaireItem[] = [
   {
     terme: "Expertise médicale",
     definition:
-      "Examen réalisé par un médecin-expert mandaté (par un tribunal, une assurance ou une commission) pour évaluer les séquelles physiques et psychiques d'une victime. En matière de préjudice corporel, l'expertise est l'étape clé qui conditionne le montant de l'indemnisation. Il est fortement conseillé — voire indispensable — d'être accompagné par un avocat lors de cet examen pour défendre vos intérêts face à l'expert de l'assureur.",
+      "Examen réalisé par un médecin-expert mandaté (par un tribunal, une assurance ou une commission) pour évaluer les séquelles physiques et psychiques d'une victime. En matière de préjudice corporel, l'expertise est l'étape clé qui conditionne le montant de l'indemnisation. Il est fortement conseillé - voire indispensable - d'être accompagné par un avocat lors de cet examen pour défendre vos intérêts face à l'expert de l'assureur.",
     href: "/expertises/prejudice-corporel",
     domaine: "Préjudice",
   },
@@ -289,7 +289,7 @@ export const glossaire: GlossaireItem[] = [
   {
     terme: "Mise en demeure",
     definition:
-      "Acte formel — souvent une lettre recommandée avec accusé de réception — par lequel une personne enjoint à une autre de respecter une obligation contractuelle ou légale dans un délai précis. Elle constitue la dernière étape avant l'engagement d'une procédure judiciaire et a pour effet de faire courir les intérêts de retard. Rédigée par un avocat, elle démontre le sérieux de la démarche et incite souvent au règlement amiable.",
+      "Acte formel - souvent une lettre recommandée avec accusé de réception - par lequel une personne enjoint à une autre de respecter une obligation contractuelle ou légale dans un délai précis. Elle constitue la dernière étape avant l'engagement d'une procédure judiciaire et a pour effet de faire courir les intérêts de retard. Rédigée par un avocat, elle démontre le sérieux de la démarche et incite souvent au règlement amiable.",
     href: "/expertises/droit-civil",
     domaine: "Civil",
   },

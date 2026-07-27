@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import DomainePage from "@/components/DomainePage";
 
 export const metadata: Metadata = {
-  title: "Avocat droit civil Dunkerque — Litiges et contrats",
+  title: "Avocat droit civil Dunkerque - Litiges et contrats",
   description:
     "Avocate en droit civil à Dunkerque. Litiges contractuels, troubles de voisinage, recouvrement de créances, responsabilité civile, litiges locatifs. Maître Margot Montagne. 07 44 78 77 18.",
   keywords: [
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     canonical: "https://avocat-montagne.fr/expertises/droit-civil",
   },
   openGraph: {
-    title: "Avocat droit civil Dunkerque — Litiges et contrats",
+    title: "Avocat droit civil Dunkerque - Litiges et contrats",
     description: "Avocate en droit civil à Dunkerque. Litiges contractuels, voisinage, recouvrement de créances, responsabilité civile. Maître Margot Montagne. ☎ 07 44 78 77 18.",
     url: "https://avocat-montagne.fr/expertises/droit-civil",
     type: "website",
@@ -140,7 +140,7 @@ export default function DroitCivilPage() {
       featureBlocks={[
         {
           image: "civil-feature.webp",
-          imageAlt: "Cabinet Montagne — droit civil à Dunkerque",
+          imageAlt: "Cabinet Montagne - droit civil à Dunkerque",
           title: "Faire valoir vos droits devant le Tribunal judiciaire de Dunkerque",
           direction: "image-right",
           content: [

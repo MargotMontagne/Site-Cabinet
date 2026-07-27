@@ -100,7 +100,7 @@ export default function DomainesSection() {
                 href={domaine.href}
                 className="group relative flex flex-col bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden block"
               >
-                {/* Barre d'accent en haut — propre avec overflow-hidden sur la carte */}
+                {/* Barre d'accent en haut - propre avec overflow-hidden sur la carte */}
                 <div className="h-1 w-full bg-forest-600 group-hover:bg-forest-700 transition-colors duration-300" />
 
                 <div className="p-8 flex flex-col flex-1">

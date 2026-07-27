@@ -159,11 +159,11 @@ export default function Header() {
               <Link
                 href="/"
                 className="shrink-0"
-                aria-label="Accueil — Cabinet Margot Montagne"
+                aria-label="Accueil - Cabinet Margot Montagne"
               >
                 <Image
                   src="/Logo navbar 4.webp"
-                  alt="Cabinet Margot Montagne — Avocate à Dunkerque"
+                  alt="Cabinet Margot Montagne - Avocate à Dunkerque"
                   height={64}
                   width={280}
                   className="h-14 lg:h-16 w-auto"
@@ -294,7 +294,7 @@ export default function Header() {
         </header>
       </div>
 
-      {/* Menu mobile — top = barre urgence + header */}
+      {/* Menu mobile - top = barre urgence + header */}
       {mobileOpen && (
         <div
           id="mobile-menu"
@@ -304,7 +304,7 @@ export default function Header() {
         >
           <div className="section-container py-8 flex flex-col">
 
-            {/* Urgence — en tête du menu mobile */}
+            {/* Urgence - en tête du menu mobile */}
             <a
               href="tel:0744787718"
               className="flex items-center gap-3 px-4 py-4 mb-2 bg-forest-50 rounded-xl border border-forest-100"

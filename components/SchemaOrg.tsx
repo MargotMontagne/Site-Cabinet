@@ -119,7 +119,7 @@ export default async function SchemaOrg() {
         "@type": "WebSite",
         "@id": "https://avocat-montagne.fr/#website",
         url: "https://avocat-montagne.fr",
-        name: "Cabinet Margot Montagne — Avocate à Dunkerque",
+        name: "Cabinet Margot Montagne - Avocate à Dunkerque",
         publisher: {
           "@id": "https://avocat-montagne.fr/#organization",
         },

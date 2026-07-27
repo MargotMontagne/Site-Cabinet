@@ -13,7 +13,7 @@ const GlossaireSearch = dynamic(() => import("@/components/GlossaireSearch"), {
 });
 
 export const metadata: Metadata = {
-  title: "Glossaire juridique — Avocat Dunkerque",
+  title: "Glossaire juridique - Avocat Dunkerque",
   description:
     `${glossaire.length} termes juridiques expliqués simplement : garde à vue, mise en examen, préjudice corporel, JAF, référé... Maître Margot Montagne, avocate à Dunkerque.`,
   alternates: {
@@ -33,7 +33,7 @@ const domainesLinks = [
 const schemaOrg = {
   "@context": "https://schema.org",
   "@type": "DefinedTermSet",
-  "name": "Glossaire juridique — Cabinet Margot Montagne",
+  "name": "Glossaire juridique - Cabinet Margot Montagne",
   "description": `${glossaire.length} termes juridiques expliqués simplement par Maître Margot Montagne, avocate à Dunkerque.`,
   "url": "https://avocat-montagne.fr/glossaire",
 };

@@ -6,9 +6,9 @@ import ScrollReveal from "@/components/ScrollReveal";
 import { glossaire } from "@/lib/glossaire-data";
 
 export const metadata: Metadata = {
-  title: "Ressources juridiques — Avocat Dunkerque",
+  title: "Ressources juridiques - Avocat Dunkerque",
   description:
-    "Glossaire juridique, guides pratiques et documents utiles. Comprenez vos droits avant de consulter. Maître Margot Montagne, avocate à Dunkerque — 07 44 78 77 18.",
+    "Glossaire juridique, guides pratiques et documents utiles. Comprenez vos droits avant de consulter. Maître Margot Montagne, avocate à Dunkerque - 07 44 78 77 18.",
   alternates: {
     canonical: "https://avocat-montagne.fr/ressources",
   },
@@ -29,7 +29,7 @@ const documentGroups: DocumentGroup[] = [
     docs: [
       {
         title: "Formulaire de demande d'aide juridictionnelle",
-        desc: "Cerfa officiel — prise en charge des frais d'avocat par l'État sous conditions de ressources.",
+        desc: "Cerfa officiel - prise en charge des frais d'avocat par l'État sous conditions de ressources.",
         href: "https://www.service-public.fr/particuliers/vosdroits/R1444",
       },
       {
@@ -43,7 +43,7 @@ const documentGroups: DocumentGroup[] = [
     label: "Droit routier",
     docs: [
       {
-        title: "Contester une amende — requête en exonération",
+        title: "Contester une amende - requête en exonération",
         desc: "Procédure officielle pour contester un PV radar ou une contravention dans les 45 jours.",
         href: "https://www.service-public.fr/particuliers/vosdroits/F18509",
       },
@@ -93,8 +93,8 @@ const documentGroups: DocumentGroup[] = [
         href: "https://www.service-public.fr/particuliers/vosdroits/F10567",
       },
       {
-        title: "Formulaire de requête — ordonnance de protection",
-        desc: "Cerfa pour saisir le JAF en urgence en cas de violences conjugales — décision sous 6 jours.",
+        title: "Formulaire de requête - ordonnance de protection",
+        desc: "Cerfa pour saisir le JAF en urgence en cas de violences conjugales - décision sous 6 jours.",
         href: "https://www.service-public.fr/particuliers/vosdroits/R42412",
       },
     ],
@@ -108,7 +108,7 @@ const documentGroups: DocumentGroup[] = [
         href: "https://www.service-public.fr/particuliers/vosdroits/F1746",
       },
       {
-        title: "Formulaire de requête — tribunal judiciaire",
+        title: "Formulaire de requête - tribunal judiciaire",
         desc: "Cerfa pour introduire une action civile en justice (litiges entre particuliers ou avec une entreprise).",
         href: "https://www.service-public.fr/particuliers/vosdroits/R14232",
       },
@@ -167,7 +167,7 @@ export default function RessourcesPage() {
             </h1>
             <div className="w-12 h-px bg-forest-400 mb-6" />
             <p className="text-lg text-white/70 leading-relaxed">
-              Glossaire juridique et formulaires officiels — pour mieux appréhender votre situation avant de consulter.
+              Glossaire juridique et formulaires officiels - pour mieux appréhender votre situation avant de consulter.
             </p>
             <div className="flex flex-wrap gap-3 mt-8">
               {[
@@ -183,7 +183,7 @@ export default function RessourcesPage() {
         </div>
       </section>
 
-      {/* Glossaire — teaser compact */}
+      {/* Glossaire - teaser compact */}
       <section id="glossaire" className="section-padding bg-stone-50">
         <div className="section-container">
           <ScrollReveal>

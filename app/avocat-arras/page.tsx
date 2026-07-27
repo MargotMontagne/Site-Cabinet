@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import GeoPage from "@/components/GeoPage";
 
 export const metadata: Metadata = {
-  title: "Avocat à Arras — Cabinet Montagne",
+  title: "Avocat à Arras - Cabinet Montagne",
   description:
     "Maître Margot Montagne, avocate au Barreau de Dunkerque, intervient à Arras et dans le Pas-de-Calais en droit pénal, droit de la famille, droit routier et préjudice corporel. 07 44 78 77 18.",
   alternates: {

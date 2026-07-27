@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Politique de confidentialité — Cabinet Margot Montagne",
+  title: "Politique de confidentialité - Cabinet Margot Montagne",
   description: "Politique de confidentialité et protection des données du Cabinet Margot Montagne, avocate à Dunkerque.",
   robots: { index: false, follow: false },
 };
@@ -68,8 +68,8 @@ export default function PolitiqueConfidentialitePage() {
             <h2 className="font-serif text-xl text-stone-950 mb-3">Sous-traitants et hébergement</h2>
             <p>Vos données peuvent transiter par les prestataires suivants, liés par des obligations contractuelles de confidentialité :</p>
             <ul className="list-disc list-inside space-y-1 mt-2">
-              <li><strong>Formspree</strong> (Formspree, Inc.) — traitement des formulaires de contact. Données hébergées aux États-Unis, encadrées par les clauses contractuelles types de la Commission européenne.</li>
-              <li><strong>Vercel</strong> (Vercel Inc.) — hébergement du site web. Données hébergées dans des datacenters en Europe (Frankfurt) par défaut.</li>
+              <li><strong>Formspree</strong> (Formspree, Inc.) - traitement des formulaires de contact. Données hébergées aux États-Unis, encadrées par les clauses contractuelles types de la Commission européenne.</li>
+              <li><strong>Vercel</strong> (Vercel Inc.) - hébergement du site web. Données hébergées dans des datacenters en Europe (Frankfurt) par défaut.</li>
             </ul>
             <p className="mt-2">Aucune donnée n&apos;est vendue ou transmise à des tiers à des fins commerciales.</p>
           </section>

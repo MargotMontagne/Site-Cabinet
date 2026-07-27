@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import DomainePage from "@/components/DomainePage";
 
 export const metadata: Metadata = {
-  title: "Avocat droit routier Dunkerque — Permis de conduire",
+  title: "Avocat droit routier Dunkerque - Permis de conduire",
   description:
     "Avocate en droit routier à Dunkerque. Retrait de permis, alcoolémie, excès de vitesse, suspension administrative. Maître Margot Montagne défend votre droit à conduire. 07 44 78 77 18.",
   keywords: [
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     canonical: "https://avocat-montagne.fr/expertises/droit-routier",
   },
   openGraph: {
-    title: "Avocat droit routier Dunkerque — Permis de conduire",
+    title: "Avocat droit routier Dunkerque - Permis de conduire",
     description: "Avocate en droit routier à Dunkerque. Retrait de permis, alcoolémie, excès de vitesse, suspension. Maître Margot Montagne. ☎ 07 44 78 77 18.",
     url: "https://avocat-montagne.fr/expertises/droit-routier",
     type: "website",
@@ -101,7 +101,7 @@ export default function DroitRoutierPage() {
       featureBlocks={[
         {
           image: "routier-feature.webp",
-          imageAlt: "Cabinet Montagne — droit routier à Dunkerque",
+          imageAlt: "Cabinet Montagne - droit routier à Dunkerque",
           title: "La régularité de la procédure : votre premier levier de défense",
           direction: "image-left",
           content: [
@@ -111,7 +111,7 @@ export default function DroitRoutierPage() {
         },
       ]}
       whyChoose={[
-        "Analyse systématique de la régularité des procédures : éthylomètre, radar, dépistage stupéfiants — un vice de forme peut invalider toute la poursuite.",
+        "Analyse systématique de la régularité des procédures : éthylomètre, radar, dépistage stupéfiants - un vice de forme peut invalider toute la poursuite.",
         "Intervention en urgence dès la rétention du permis pour engager les recours administratifs sans délai.",
         "Connaissance approfondie des pratiques du Parquet de Dunkerque et des habitudes des juridictions locales.",
         "Négociation avec le Parquet pour obtenir des alternatives aux poursuites ou des aménagements de peine.",

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Mentions légales — Cabinet Margot Montagne",
+  title: "Mentions légales - Cabinet Margot Montagne",
   description: "Mentions légales du site web du Cabinet Margot Montagne, avocate à Dunkerque.",
   robots: { index: false, follow: false },
 };
@@ -30,7 +30,6 @@ export default function MentionsLegalesPage() {
               25 Rue du Sud, 59140 Dunkerque<br />
               Téléphone : <a href="tel:0744787718" className="text-forest-600">07 44 78 77 18</a><br />
               Email : margot.montagne.avocat@gmail.com<br />
-              N° RPVA : [à compléter]<br />
               Ordre professionnel : Barreau de Dunkerque
             </p>
           </section>
@@ -38,8 +37,9 @@ export default function MentionsLegalesPage() {
           <section>
             <h2 className="font-serif text-xl text-stone-950 mb-3">Hébergement</h2>
             <p>
-              Ce site est hébergé par [Hébergeur à compléter].<br />
-              Adresse : [à compléter]
+              Ce site est hébergé par Vercel Inc.<br />
+              340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis<br />
+              <a href="https://vercel.com" className="text-forest-600">vercel.com</a>
             </p>
           </section>
 

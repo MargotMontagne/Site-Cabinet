@@ -28,7 +28,7 @@ const playfair = Lora({
 export const metadata: Metadata = {
   metadataBase: new URL("https://avocat-montagne.fr"),
   title: {
-    default: "Maître Margot Montagne — Avocate à Dunkerque",
+    default: "Maître Margot Montagne - Avocate à Dunkerque",
     template: "%s | Maître Montagne",
   },
   description:
@@ -63,8 +63,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "fr_FR",
     url: "https://avocat-montagne.fr",
-    siteName: "Cabinet Margot Montagne — Avocate à Dunkerque",
-    title: "Maître Margot Montagne — Avocate à Dunkerque",
+    siteName: "Cabinet Margot Montagne - Avocate à Dunkerque",
+    title: "Maître Margot Montagne - Avocate à Dunkerque",
     description:
       "Avocate au Barreau de Dunkerque, Maître Montagne défend vos droits en droit pénal, droit de la famille, droit routier et préjudice corporel. Disponible rapidement.",
     images: [
@@ -73,14 +73,14 @@ export const metadata: Metadata = {
         secureUrl: "https://avocat-montagne.fr/og-image.jpg?v=2",
         width: 1200,
         height: 630,
-        alt: "Maître Margot Montagne — Avocate à Dunkerque",
+        alt: "Maître Margot Montagne - Avocate à Dunkerque",
         type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Maître Margot Montagne — Avocate à Dunkerque",
+    title: "Maître Margot Montagne - Avocate à Dunkerque",
     description:
       "Avocate au Barreau de Dunkerque. Droit pénal, famille, routier. Intervention rapide.",
     images: ["https://avocat-montagne.fr/og-image.jpg?v=2"],

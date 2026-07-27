@@ -93,7 +93,7 @@ export default function ZoneGeoSection() {
 
               <LazyMap
                 src="https://maps.google.com/maps?q=25+Rue+du+Sud,+59140+Dunkerque,+France&t=&z=17&ie=UTF8&iwloc=&output=embed"
-                title="Cabinet Margot Montagne — 25 Rue du Sud, 59140 Dunkerque"
+                title="Cabinet Margot Montagne - 25 Rue du Sud, 59140 Dunkerque"
                 className="aspect-video rounded-sm border border-gray-200"
               />
             </div>

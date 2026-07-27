@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import GeoPage from "@/components/GeoPage";
 
 export const metadata: Metadata = {
-  title: "Avocat à Hazebrouck — Cabinet Montagne",
+  title: "Avocat à Hazebrouck - Cabinet Montagne",
   description:
     "Maître Margot Montagne, avocate au Barreau de Dunkerque, intervient à Hazebrouck et dans les Flandres intérieures en droit pénal, droit de la famille et droit routier. 07 44 78 77 18.",
   alternates: {

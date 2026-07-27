@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import DomainePage from "@/components/DomainePage";
 
 export const metadata: Metadata = {
-  title: "Avocat préjudice corporel Dunkerque — Indemnisation",
+  title: "Avocat préjudice corporel Dunkerque - Indemnisation",
   description:
     "Avocate en réparation du préjudice corporel à Dunkerque. Accident de la route, accident du travail, agression, erreur médicale. Face aux assureurs. Maître Margot Montagne. 07 44 78 77 18.",
   keywords: [
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     canonical: "https://avocat-montagne.fr/expertises/prejudice-corporel",
   },
   openGraph: {
-    title: "Avocat préjudice corporel Dunkerque — Indemnisation",
+    title: "Avocat préjudice corporel Dunkerque - Indemnisation",
     description: "Avocate en réparation du préjudice corporel à Dunkerque. Accident, agression, erreur médicale. Face aux assureurs. Maître Margot Montagne. ☎ 07 44 78 77 18.",
     url: "https://avocat-montagne.fr/expertises/prejudice-corporel",
     type: "website",
@@ -40,7 +40,7 @@ export default function PrejudiceCorpoelPage() {
       h2Intro="Cabinet d'indemnisation à Dunkerque : face aux assureurs, pour vous"
       h2Situations="Accidents et préjudices pris en charge à Dunkerque"
       intro={[
-        "Maître Margot Montagne, inscrite au Barreau de Dunkerque depuis 2020, défend les victimes d'accidents et d'agressions face aux compagnies d'assurance. Maîtrisant à la fois le droit du dommage corporel et le droit des assurances, elle connaît les méthodes employées par les assureurs pour minimiser les indemnisations — et sait comment les contrer.",
+        "Maître Margot Montagne, inscrite au Barreau de Dunkerque depuis 2020, défend les victimes d'accidents et d'agressions face aux compagnies d'assurance. Maîtrisant à la fois le droit du dommage corporel et le droit des assurances, elle connaît les méthodes employées par les assureurs pour minimiser les indemnisations - et sait comment les contrer.",
         "La nomenclature Dintilhac, référentiel exhaustif de l'ensemble des postes de préjudice indemnisables, est au coeur de chaque dossier : dépenses de santé actuelles et futures, perte de revenus, tierce personne, préjudice esthétique, d'agrément, sexuel, souffrances endurées. Aucun poste ne doit être négligé, aucune offre ne doit être acceptée sans analyse.",
       ]}
       profiles={[
@@ -75,11 +75,11 @@ export default function PrejudiceCorpoelPage() {
       featureBlocks={[
         {
           image: "prejudice-feature.webp",
-          imageAlt: "Cabinet Montagne — indemnisation préjudice corporel Dunkerque",
+          imageAlt: "Cabinet Montagne - indemnisation préjudice corporel Dunkerque",
           title: "Face aux assureurs : ne négociez pas seul",
           direction: "image-right",
           content: [
-            "Les compagnies d'assurance disposent de médecins-conseils salariés, d'experts en évaluation du dommage corporel et de juristes spécialisés — tous formés pour limiter le montant des indemnisations. Face à eux, une victime qui négocie seule est systématiquement désavantagée, souvent sans même s'en rendre compte.",
+            "Les compagnies d'assurance disposent de médecins-conseils salariés, d'experts en évaluation du dommage corporel et de juristes spécialisés - tous formés pour limiter le montant des indemnisations. Face à eux, une victime qui négocie seule est systématiquement désavantagée, souvent sans même s'en rendre compte.",
             "Maître Montagne rétablit l'équilibre. Présente lors des expertises médicales, elle veille à ce que chaque séquelle soit correctement documentée. Lors des négociations, elle s'appuie sur la nomenclature Dintilhac et, si nécessaire, sur l'avis d'un médecin-conseil indépendant pour contester une évaluation insuffisante. L'objectif est toujours une réparation intégrale, sans compromis.",
           ],
         },
@@ -112,7 +112,7 @@ export default function PrejudiceCorpoelPage() {
       ]}
       whyChoose={[
         { title: "Vous n'êtes plus seul face à l'assureur", description: "Les assureurs ont des équipes entières pour limiter les indemnisations. Maître Montagne connaît leurs méthodes et sait les contrer." },
-        { title: "Aucun préjudice oublié", description: "Chaque poste est passé en revue : perte de revenus, tierce personne, préjudice esthétique, d'agrément, sexuel — rien n'est laissé de côté." },
+        { title: "Aucun préjudice oublié", description: "Chaque poste est passé en revue : perte de revenus, tierce personne, préjudice esthétique, d'agrément, sexuel - rien n'est laissé de côté." },
         { title: "À vos côtés lors des expertises", description: "Présence lors des expertises médicales pour que vos séquelles soient correctement documentées et qu'aucune ne soit minimisée." },
         { title: "Un avis médical indépendant", description: "Si l'évaluation de l'assureur est insuffisante, un médecin-conseil indépendant est missionné pour la contester chiffres à l'appui." },
         { title: "Un seul interlocuteur pour tout", description: "Le cabinet gère les assureurs, les organismes sociaux et les juridictions. Vous n'avez qu'à vous concentrer sur votre rétablissement." },

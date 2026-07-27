@@ -386,7 +386,7 @@ export default async function DomainePage({
 
       {callout && calloutPosition === "after-situations" && calloutSection}
 
-      {/* Feature blocks — image + texte */}
+      {/* Feature blocks - image + texte */}
       {featureBlocks && featureBlocks.length > 0 && (
         <section className="section-padding bg-white">
           <div className="section-container space-y-20">

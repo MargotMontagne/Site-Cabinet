@@ -82,10 +82,10 @@ export async function POST(req: NextRequest) {
     });
 
     await transporter.sendMail({
-      from: `"Cabinet Montagne — Contact" <${process.env.SMTP_USER}>`,
+      from: `"Cabinet Montagne - Contact" <${process.env.SMTP_USER}>`,
       to: process.env.CABINET_EMAIL ?? "contact@avocat-montagne.fr",
       replyTo: email,
-      subject: `[Cabinet Montagne] Nouveau message — ${domaine}`,
+      subject: `[Cabinet Montagne] Nouveau message - ${domaine}`,
       text: [
         `Nom : ${nom}`,
         `Email : ${email}`,
